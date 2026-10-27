@@ -245,6 +245,78 @@ function leader(h, y, lx, ly, num) {
   );
 }
 
+function sideCallouts(features, lx, yMin, yMax) {
+  const cy = (yMin + yMax) / 2;
+  const sorted = features.slice().sort((a, b) => {
+    const aa = Math.atan2(a.y - cy, a.h - lx);
+    const bb = Math.atan2(b.y - cy, b.h - lx);
+    return aa - bb;
+  });
+  const n = sorted.length;
+  return sorted.map((f, i) => [
+    f.num,
+    f.h,
+    f.y,
+    lx,
+    n === 1 ? cy : yMin + ((yMax - yMin) * i) / (n - 1),
+  ]);
+}
+
+function placeAround(features, bounds) {
+  const groups = { left: [], right: [], top: [], bottom: [] };
+  for (const f of features) {
+    const [x, y] = f.p;
+    let side = f.side;
+    if (!side) {
+      const d = {
+        left: x - bounds.left,
+        right: bounds.right - x,
+        top: y - bounds.top,
+        bottom: bounds.bottom - y,
+      };
+      side = 'left';
+      for (const k of ['right', 'top', 'bottom']) {
+        if (d[k] < d[side]) side = k;
+      }
+    }
+    groups[side].push(f);
+  }
+  const out = {};
+  const placeSide = (arr, side) => {
+    if (!arr.length) return;
+    const vertical = side === 'left' || side === 'right';
+    const lx = side === 'left' ? bounds.left : side === 'right' ? bounds.right : null;
+    const ly = side === 'top' ? bounds.top : side === 'bottom' ? bounds.bottom : null;
+    const sideMin = bounds.sideMin ?? bounds.top;
+    const sideMax = bounds.sideMax ?? bounds.bottom;
+    const crossMin = bounds.crossMin ?? bounds.left;
+    const crossMax = bounds.crossMax ?? bounds.right;
+    const min = vertical ? sideMin : crossMin;
+    const max = vertical ? sideMax : crossMax;
+    const cOther = vertical ? (sideMin + sideMax) / 2 : (crossMin + crossMax) / 2;
+    const sorted = arr.slice().sort((a, b) => {
+      const aa = vertical
+        ? Math.atan2(a.p[1] - cOther, a.p[0] - lx)
+        : Math.atan2(a.p[1] - ly, a.p[0] - cOther);
+      const bb = vertical
+        ? Math.atan2(b.p[1] - cOther, b.p[0] - lx)
+        : Math.atan2(b.p[1] - ly, b.p[0] - cOther);
+      return aa - bb;
+    });
+    const n = sorted.length;
+    sorted.forEach((f, i) => {
+      const t = n === 1 ? 0.5 : i / (n - 1);
+      const pos = min + (max - min) * t;
+      out[f.num] = vertical ? [lx, pos] : [pos, ly];
+    });
+  };
+  placeSide(groups.left, 'left');
+  placeSide(groups.right, 'right');
+  placeSide(groups.top, 'top');
+  placeSide(groups.bottom, 'bottom');
+  return out;
+}
+
 function cross(h, y, size = 5) {
   const x = mx(h), yy = my(y);
   return (
@@ -513,23 +585,24 @@ function drawSideView() {
   g.push(dimH(-250, 250, -60, '500', 432));
   g.push(dimH(-220, 220, -85, '440', 432));
 
-  // Выноски
-  const L = [
-    [1, 200, 551, 245, 75],
-    [2, 200, 441, 245, 92],
-    [3, -280, 700, 32, 78],
-    [4, -220, 650, 32, 125],
-    [5, -220, 700, 32, 165],
-    [6, -220, 490, 32, 200],
-    [7, 280, 394.5, 245, 143],
-    [8, 0, 430, 245, 177],
-    [9, 0, 515, 245, 198],
-    [10, 10, 535, 245, 217],
-    [11, -220, 820, 32, 55],
-    [12, 232, 350, 245, 160],
-    [13, -280, 7, 32, 240],
-    [14, 148, 432, 245, 126],
-  ];
+  // Выноски: номера по сторонам, порядок — по углу от края чертежа
+  const L = sideCallouts([
+    { num: 3, h: -280, y: 700 },
+    { num: 4, h: -220, y: 650 },
+    { num: 5, h: -220, y: 700 },
+    { num: 6, h: -220, y: 490 },
+    { num: 11, h: -220, y: 820 },
+    { num: 13, h: -280, y: 7 },
+  ], 32, 55, 210).concat(sideCallouts([
+    { num: 1, h: 200, y: 551 },
+    { num: 2, h: 200, y: 441 },
+    { num: 7, h: 280, y: 394.5 },
+    { num: 8, h: 0, y: 430 },
+    { num: 9, h: 0, y: 515 },
+    { num: 10, h: 10, y: 535 },
+    { num: 12, h: 232, y: 350 },
+    { num: 14, h: 148, y: 432 },
+  ], 245, 55, 230));
   for (const [num, h, y, lx, ly] of L) g.push(leader(h, y, lx, ly, num));
 
   return borderAndBlocks(
@@ -628,20 +701,21 @@ function drawLeftView() {
   g.push(text(135, 39, 'Aст = 3…10 мм;  Rmax/Rmin = 113/107;  e = 3 (средний диск)', { size: 2.9, anchor: 'middle', fill: MID }));
   g.push(text(135, 45, 'f = n/30;  150…450 об/мин', { size: 2.9, anchor: 'middle', fill: MID }));
 
-  // Выноски
-  const L = [
-    [1, 170, 551, 245, 70],
-    [2, 170, 441, 245, 88],
-    [3, -230, 700, 32, 75],
-    [4, -170, 650, 32, 120],
-    [5, -170, 700, 32, 158],
-    [6, -170, 490, 32, 195],
-    [8, 0, 500, 245, 110],
-    [9, 50, 515, 245, 145],
-    [10, 50, 535, 245, 165],
-    [11, -170, 820, 32, 50],
-    [13, -230, 7, 32, 235],
-  ];
+  // Выноски: номера по сторонам, порядок — по углу от края чертежа
+  const L = sideCallouts([
+    { num: 3, h: -230, y: 700 },
+    { num: 4, h: -170, y: 650 },
+    { num: 5, h: -170, y: 700 },
+    { num: 6, h: -170, y: 490 },
+    { num: 11, h: -170, y: 820 },
+    { num: 13, h: -230, y: 7 },
+  ], 32, 45, 210).concat(sideCallouts([
+    { num: 1, h: 170, y: 551 },
+    { num: 2, h: 170, y: 441 },
+    { num: 8, h: 0, y: 500 },
+    { num: 9, h: 50, y: 515 },
+    { num: 10, h: 50, y: 535 },
+  ], 245, 55, 180));
   for (const [num, h, y, lx, ly] of L) g.push(leader(h, y, lx, ly, num));
 
   return borderAndBlocks('Вид слева', 2, 'Вид слева', g.join(''));
@@ -907,12 +981,28 @@ function drawIso() {
     [14, 148, 435, 0, 248, 75],
     [15, 0, 420, 0, 248, 135],
   ];
-  for (const [num, x, y, z, lx, ly] of callouts) {
-    const p = iso({ x, y, z });
-    g.push(line(p[0], p[1], lx, ly, { sw: 0.25 }));
+  const sideByNum = {
+    1: 'top', 2: 'top', 10: 'top',
+    8: 'bottom', 9: 'bottom',
+    3: 'left', 4: 'left', 5: 'left', 6: 'left', 11: 'left', 13: 'left',
+    7: 'right', 12: 'right', 14: 'right', 15: 'right',
+  };
+  const feats = callouts.map(([num, x, y, z]) => ({
+    num,
+    p: iso({ x, y, z }),
+    side: sideByNum[num],
+  }));
+  const labels = placeAround(feats, {
+    left: 25, right: 250, top: 35, bottom: 260,
+    sideMin: 50, sideMax: 245, crossMin: 55, crossMax: 220,
+  });
+  for (const f of feats) {
+    const [p0, p1] = f.p;
+    const [lx, ly] = labels[f.num];
+    g.push(line(p0, p1, lx, ly, { sw: 0.25 }));
     g.push(circle(lx, ly, 2.3, { fill: '#ffffff', stroke: INK, sw: 0.35 }));
-    g.push(text(lx, ly + 0.1, String(num), { size: 2.7, anchor: 'middle', weight: 'bold' }));
-    g.push(circle(p[0], p[1], 0.65, { fill: INK, stroke: 'none' }));
+    g.push(text(lx, ly + 0.1, String(f.num), { size: 2.7, anchor: 'middle', weight: 'bold' }));
+    g.push(circle(p0, p1, 0.65, { fill: INK, stroke: 'none' }));
   }
 
   g.push(text(135, 14, 'Изометрия. Столешница, подстолье и ближняя правая стойка — контуром', { size: 3.0, anchor: 'middle', fill: MID }));
