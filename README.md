@@ -68,6 +68,7 @@
 - [Замечания и корректировки по модели](./stages/correct/README.md)
     - [Часть 1.](./stages/correct/1/README.md)
 - [Инженерная экспертиза модели](./stages/expert/README.md)
+- [Корректировки и замечания после инженерной экспертизы](./stages/expert_correct/README.md) (план)
 
 ## Сводный альбом
 
