@@ -1,8 +1,8 @@
 'use strict';
 /*
  * Параметрический генератор листов этапа «Формирование модели устройства».
- * Запуск: node model/tools/generate.js
- * Результат: model/figs/side_view.svg, left_view.svg, isometric.svg
+ * Запуск: node stages/model/tools/generate.js
+ * Результат: stages/model/figs/side_view.svg, left_view.svg, isometric.svg
  *
  * Все размеры — в миллиметрах модели. Листы — A3, масштаб 1:5.
  */
@@ -392,7 +392,7 @@ function borderAndBlocks(sheetTitle, sheetNo, viewName, body, opts = {}) {
     text(tx + 6, ty + 27, 'Модель устройства', { size: 3.4 }) +
     text(tx + 6, ty + 42, 'Этап: формирование модели', { size: 2.8 }) +
     text(tx + 6, ty + 57, viewName, { size: 2.9, weight: 'bold' }) +
-    text(tx + 6, ty + 72, 'Источник: эскиз model/pics/common_idea.jpg', { size: 2.45 }) +
+    text(tx + 6, ty + 72, 'Источник: эскиз stages/model/pics/common_idea.jpg', { size: 2.45 }) +
     text(tx + 92, ty + 39, 'Масштаб', { size: 2.5, fill: MID }) +
     text(tx + 92, ty + 46, '1:5', { size: 3.6, weight: 'bold' }) +
     text(tx + 92, ty + 57, 'Размеры, мм', { size: 2.35, fill: MID }) +

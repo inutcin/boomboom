@@ -1,6 +1,7 @@
 # Формирование модели устройства по эскизу от руки без конкретных размеров.
 
-Требуется взять фото эскиза [`model/pics/common_idea.jpg`](../../model/pics/common_idea.jpg)
+Требуется взять фото эскиза
+[`stages/model/pics/common_idea.jpg`](../../../stages/model/pics/common_idea.jpg)
 
 Сделать на его основе
 - эскиз в 2 проекциях: вид сбоку и вид слева

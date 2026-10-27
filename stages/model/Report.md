@@ -1,7 +1,7 @@
 # Отчёт по этапу «Формирование модели устройства»
 
 Дата: 27.10.2026  
-Источник: эскиз от руки `model/pics/common_idea.jpg`  
+Источник: эскиз от руки `stages/model/pics/common_idea.jpg`  
 Стадия: модель, без рабочих чертежей и расчёта на прочность
 
 ## 1. Что сделано
@@ -11,15 +11,15 @@
 
 | Лист | Файл SVG | Растр PNG | Содержание |
 |---:|---|---|---|
-| 1 | `model/figs/side_view.svg` | `model/pics/side_view.png` | Вид сбоку, разрез A–A по оси |
-| 2 | `model/figs/left_view.svg` | `model/pics/left_view.png` | Вид слева: два ролика, кулачковый диск, пружины |
-| 3 | `model/figs/isometric.svg` | `model/pics/isometric.png` | Изометрия; столешница, подстолье и ближняя правая стойка — контуром |
+| 1 | `stages/model/figs/side_view.svg` | `stages/model/pics/side_view.png` | Вид сбоку, разрез A–A по оси |
+| 2 | `stages/model/figs/left_view.svg` | `stages/model/pics/left_view.png` | Вид слева: два ролика, кулачковый диск, пружины |
+| 3 | `stages/model/figs/isometric.svg` | `stages/model/pics/isometric.png` | Изометрия; столешница, подстолье и ближняя правая стойка — контуром |
 
-Дополнительно в `model/tools/generate.js` лежит параметрический генератор
+Дополнительно в `stages/model/tools/generate.js` лежит параметрический генератор
 листов. Запуск:
 
 ```bash
-node model/tools/generate.js
+node stages/model/tools/generate.js
 ```
 
 Генератор детерминированный; SVG пересобираются из одних и тех же параметров.
@@ -130,7 +130,7 @@ PNG получены из SVG через headless Chromium при 200 dpi: 3307 
    совершает движение в вертикальной плоскости, и шпильки не должны работать
    направляющими.
 6. **Вид сбоку** выполнен разрезом A–A по оси; вид слева — обычный вид.
-7. Каталоги `model/figs` и `model/pics` — существующие в репозитории; они
+7. Каталоги `stages/model/figs` и `stages/model/pics` — существующие в репозитории; они
    использованы вместо `fig`/`pic` из формулировки `AGENTS.md`. При
    необходимости каталоги можно переименовать.
 
@@ -166,7 +166,7 @@ PNG получены из SVG через headless Chromium при 200 dpi: 3307 
 ## 7. Состав этапа
 
 ```
-model/
+stages/model/
   figs/
     side_view.svg
     left_view.svg
