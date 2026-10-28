@@ -92,6 +92,24 @@ PAGES = [
         "desc": "Оправка Ø10/Ø40, шайба Ø60, винт M8, профиль диска.",
         "file": "stages/correct/1/pics/cam_mount.png",
     },
+    {
+        "group": "Экспертиза",
+        "title": "Кинематика кулачок–ролики",
+        "desc": "Фактическая амплитуда, угол контакта, боковые силы.",
+        "file": "stages/expert/pics/kinematics.png",
+    },
+    {
+        "group": "Экспертиза",
+        "title": "Динамика подвески и контакт",
+        "desc": "Сила инерции, требуемый поджим пружин, резонанс.",
+        "file": "stages/expert/pics/dynamics.png",
+    },
+    {
+        "group": "Экспертиза",
+        "title": "Карта рисков и защита",
+        "desc": "Критичные зоны, рекомендуемый привод, сводка замечаний.",
+        "file": "stages/expert/pics/safety.png",
+    },
 ]
 
 
@@ -115,7 +133,7 @@ def draw_cover(c):
     c.setFont(BOLD, 42)
     c.drawString(70, H - 100, "ВИБРОСТОЛ")
     c.setFont("DejaVu", 20)
-    c.drawString(70, H - 138, "Сводный альбом: общий вид и детали узлов")
+    c.drawString(70, H - 138, "Сводный альбом: общий вид, детали узлов и экспертиза")
     line(c, 70, H - 160, W - 70, H - 160, 0.8)
 
     left_x, right_x = 70, 620
@@ -125,10 +143,18 @@ def draw_cover(c):
     c.drawString(right_x, top_y, "ДЕТАЛИ УЗЛОВ")
 
     y = top_y - 32
+    prev_group = "Общий вид"
     for idx, page in enumerate(PAGES, start=2):
         x = left_x if page["group"] == "Общий вид" else right_x
         if idx == 6:
             y = top_y - 32
+            prev_group = page["group"]
+        if page["group"] != prev_group:
+            prev_group = page["group"]
+            y -= 6
+            c.setFont(BOLD, 15)
+            c.drawString(right_x, y, "ЭКСПЕРТИЗА")
+            y -= 28
         c.setFont(BOLD, 11.5)
         c.drawString(x, y, f"{idx}.  {page['title']}")
         c.setFont("DejaVu", 8.8)
@@ -138,15 +164,16 @@ def draw_cover(c):
         y -= 38
 
     c.setFont(BOLD, 11)
-    c.drawString(70, 248, "Редакции")
+    c.drawString(70, 218, "Редакции")
     c.setFont("DejaVu", 9.5)
-    c.drawString(70, 232, "Страницы 2–5 — общий вид этапа model; страницы 6–11 — детали узлов этапа correct/1.")
-    c.drawString(70, 218, "Более поздние редакции узлов — листы correct/1. При противоречии использовать их.")
-    c.drawString(70, 204, "Общие виды model сохранены как исходная редакция, так как позднее не перевыпускались.")
+    c.drawString(70, 202, "Страницы 2–5 — общий вид этапа model; страницы 6–11 — детали узлов этапа correct/1.")
+    c.drawString(70, 188, "Страницы 12–14 — листы инженерной экспертизы; полный перечень замечаний — stages/expert/Report.md.")
+    c.drawString(70, 174, "Более поздние редакции узлов — листы correct/1. При противоречии использовать их.")
+    c.drawString(70, 160, "Общие виды model сохранены как исходная редакция, так как позднее не перевыпускались.")
 
     c.setFont("DejaVu", 9)
-    c.drawString(70, 105, "27.10.2026  ·  DeepSeek / OpenCode  ·  A3, 200 dpi  ·  11 страниц")
-    c.drawString(70, 90, "Источники: stages/model/pics/*, stages/correct/1/pics/*")
+    c.drawString(70, 105, "28.10.2026  ·  DeepSeek / OpenCode  ·  A3, 200 dpi  ·  14 страниц")
+    c.drawString(70, 90, "Источники: stages/model/pics/*, stages/correct/1/pics/*, stages/expert/pics/*")
 
     c.bookmarkPage("cover")
     c.addOutlineEntry("Обложка и содержание", "cover", level=0)
@@ -199,9 +226,9 @@ def main():
             raise SystemExit(f"Нет файла: {path}")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(OUT), pagesize=LAND)
-    c.setTitle("Вибростол — общий вид и детали узлов")
+    c.setTitle("Вибростол — общий вид, детали узлов и экспертиза")
     c.setAuthor("DeepSeek / OpenCode")
-    c.setSubject("Сводный альбом: общий вид и детали узлов этапов model и correct/1")
+    c.setSubject("Сводный альбом: общий вид и детали узлов этапов model и correct/1, инженерная экспертиза этапа expert")
     c.setCreator("reportlab / tools/build_album.py")
 
     draw_cover(c)

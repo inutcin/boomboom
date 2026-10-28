@@ -143,7 +143,8 @@ function cw(ch) {
 function tw(s, size) {
   let w = 0;
   for (const ch of String(s)) w += cw(ch);
-  return w * size;
+  // запас ~10 % на кириллицу DejaVu: оценка не должна занижать ширину
+  return w * size * 1.1;
 }
 function wrap(s, size, maxW) {
   const words = String(s).split(' ');
@@ -166,7 +167,6 @@ function text(x, y, s, o = {}) {
   const anchor = o.anchor ?? 'start';
   const weight = o.weight ?? 'normal';
   const fill = o.fill ?? INK;
-  const rot = o.rot ? ` transform="rotate(${o.rot} ${f(x)} ${f(y)})"` : '';
   let out = '';
   if (o.bg) {
     const w = tw(s, size) + 1.2;
@@ -175,8 +175,8 @@ function text(x, y, s, o = {}) {
     out += rect(bx - 0.6, y - h / 2, w, h, { fill: o.bg, stroke: 'none' });
   }
   BOXES.push({ x, y, w: tw(s, size), anchor, size, s, rot: o.rot || 0 });
-  out += `<text x="${f(x)}" y="${f(y)}" font-size="${f(size)}" text-anchor="${anchor}" font-weight="${weight}" fill="${fill}" dominant-baseline="middle"${rot}>${esc(s)}</text>`;
-  return out;
+  out += `<text x="${f(x)}" y="${f(y)}" font-size="${f(size)}" text-anchor="${anchor}" font-weight="${weight}" fill="${fill}" dominant-baseline="middle">${esc(s)}</text>`;
+  return o.rot ? `<g transform="rotate(${o.rot} ${f(x)} ${f(y)})">${out}</g>` : out;
 }
 
 function textBlock(x, y, lines, o = {}) {
@@ -229,8 +229,16 @@ function dimV(x, y1, y2, txt, o = {}) {
     out += line(o.from, y1, x + over, y1, { sw: 0.2 });
     out += line(o.from, y2, x + over, y2, { sw: 0.2 });
   }
-  out += arrow(x, y1, x, y2, { sw: 0.22, head: 1.7, hw: 0.6 });
-  out += arrow(x, y2, x, y1, { sw: 0.22, head: 1.7, hw: 0.6 });
+  if (o.outside) {
+    const e = o.ext ?? 2.2;
+    out += arrow(x, y1 - e, x, y1, { sw: 0.22, head: 1.5, hw: 0.55 });
+    out += arrow(x, y2 + e, x, y2, { sw: 0.22, head: 1.5, hw: 0.55 });
+    out += line(x, y1 - e, x, y1, { sw: 0.2 });
+    out += line(x, y2, x, y2 + e, { sw: 0.2 });
+  } else {
+    out += arrow(x, y1, x, y2, { sw: 0.22, head: 1.7, hw: 0.6 });
+    out += arrow(x, y2, x, y1, { sw: 0.22, head: 1.7, hw: 0.6 });
+  }
   if (txt)
     out += text(x + (o.side === 'right' ? 2.2 : -2.2), (y1 + y2) / 2, txt, {
       size: o.size ?? 2.5,
@@ -351,7 +359,7 @@ function sheetKinematics() {
   s += rect(20, 52, 230, 4, { fill: LIGHT, stroke: INK, sw: 0.5 });
   s += text(22, 60.2, 'стол, низ 548', { size: 2.4 });
   s += text(18, 38, 'Схема Y–Z, не в масштабе; 0,32 мм листа на 1 мм модели', {
-    size: 2.1,
+    size: 2.2,
     fill: MID,
   });
   s += text(18, 44.6, 'A=6,52 мм (e=3)', { size: 2.6, weight: 'bold' });
@@ -387,10 +395,8 @@ function sheetKinematics() {
     s += circle(x, 66.4, 2.4, { fill: WHITE, stroke: INK, sw: 0.4 });
     s += circle(x, 66.4, 0.45, { fill: INK, stroke: 'none' });
   }
-  s += text(105, 61, 'z=−50', { size: 2.3, anchor: 'end' });
-  s += text(155, 61, 'z=+50', { size: 2.3 });
-  s += line(105, 61, 110.6, 64.4, { sw: 0.2 });
-  s += line(155, 61, 149.4, 64.4, { sw: 0.2 });
+  s += text(114, 58.5, 'z=−50', { size: 2.2, anchor: 'middle' });
+  s += text(146, 58.5, 'z=+50', { size: 2.2, anchor: 'middle' });
 
   // --- линия центров ------------------------------------------------------
   const ang = Math.atan2(146 - C.x, C.y - 66.4); // от вертикали
@@ -405,7 +411,7 @@ function sheetKinematics() {
   s += path(`M ${f(C.x)} ${f(C.y - ar)} A ${ar} ${ar} 0 0 1 ${f(ax)} ${f(ay)}`, {
     sw: 0.25,
   });
-  s += text(138.6, 91.4, '22,5°', { size: 2.3, bg: LIGHT });
+  s += text(127.4, 91.2, '22,5°', { size: 2.3, anchor: 'end', bg: LIGHT });
 
   // точка контакта
   const kx = C.x + 36.15 * ux;
@@ -428,27 +434,21 @@ function sheetKinematics() {
   s += line(72, 146, 110, 136.4, { sw: 0.2 });
   s += circle(110, 136.4, 0.5, { fill: INK, stroke: 'none' });
 
-  // --- размер A -----------------------------------------------------------
+  // --- размер A (справа от правого ролика) --------------------------------
   for (const y of [65.35, 67.44]) {
-    s += line(152, y, 171.5, y, { sw: 0.2, dash: '2.6 0.9 0.7 0.9' });
+    s += line(153, y, 166, y, { sw: 0.2, dash: '2.6 0.9 0.7 0.9' });
   }
-  s += arrow(170, 63.2, 170, 65.35, { sw: 0.22, head: 1.5, hw: 0.55 });
-  s += arrow(170, 69.6, 170, 67.44, { sw: 0.22, head: 1.5, hw: 0.55 });
-  s += line(170, 63.2, 170, 69.6, { sw: 0.2 });
-  s += text(173.5, 61.2, 'A=6,52', { size: 2.3 });
-  s += line(173.2, 62.4, 170.4, 64.8, { sw: 0.18 });
+  s += dimV(164, 65.35, 67.44, '', { outside: true, ext: 2.2 });
+  s += text(167, 60.5, 'A=6,52', { size: 2.3 });
+  s += line(166.6, 61.7, 164.2, 64.6, { sw: 0.18 });
 
   // --- подписи справа -----------------------------------------------------
-  s += line(150.8, 69.9, 176.4, 74.6, { sw: 0.2 });
-  s += circle(150.8, 69.9, 0.5, { fill: INK, stroke: 'none' });
-  s += text(178, 75, 'ролик 6202-2RS Ø35', { size: 2.2 });
+  s += text(176, 67, 'ролик 6202-2RS Ø35', { size: 2.2 });
+  s += line(kx + 0.8, ky + 0.4, 174, 73.2, { sw: 0.25, stroke: RED });
+  s += text(176, 74.4, 'r_к=112,96', { size: 2.2, fill: RED, weight: 'bold' });
+  s += text(176, 79, 'контакт не на вершине', { size: 2.2, fill: RED });
 
-  s += line(kx + 1.2, ky + 1.2, 155, 79.6, { sw: 0.25, stroke: RED });
-  s += text(157, 81, 'r_к=112,96 — контакт не на вершине', { size: 2.2, fill: RED });
-
-  s += line(152, 77.6, 171, 87.4, { sw: 0.2 });
-  s += circle(152, 77.6, 0.5, { fill: INK, stroke: 'none' });
-  s += text(173, 88.4, 'd=130,46', { size: 2.3 });
+  s += text(141.9, 90.3, 'd=130,46', { size: 2.2, rot: -67.5, bg: LIGHT });
 
   // --- силы у правого ролика ---------------------------------------------
   const O = { x: 196, y: 138 };
@@ -463,12 +463,18 @@ function sheetKinematics() {
   s += text(194, 116.6, 'F_v=0,924F', { size: 2.3, anchor: 'end' });
   s += text(Ex + 2.2, 140, 'F_h=0,383F', { size: 2.3 });
   s += text(196, 146.2, 'силы на правом ролике, z=+50', {
-    size: 2.05,
+    size: 2.2,
     anchor: 'middle',
     fill: MID,
   });
 
-  s += text(18, 146.2, 'ΣF_h=0 только при симметрии', { size: 2.15 });
+  // силы у левого ролика (зеркально)
+  const OL = { x: 100, y: 80 };
+  s += arrow(OL.x, OL.y, OL.x, OL.y - 11, { sw: 0.45, head: 2.0, hw: 0.7 });
+  s += arrow(OL.x, OL.y, OL.x - 4.4, OL.y, { sw: 0.45, head: 2.0, hw: 0.7 });
+  s += text(OL.x + 1.6, OL.y - 6.5, 'F_v', { size: 2.2 });
+  s += text(OL.x - 5.6, OL.y + 3, 'F_h', { size: 2.2, anchor: 'end' });
+  s += text(18, 146.2, 'ΣF_h=0 только при симметрии', { size: 2.2 });
 
   // --- график A(e) --------------------------------------------------------
   const px0 = 42;
@@ -558,11 +564,11 @@ function sheetKinematics() {
       ['3,0', '6,52', '6,00', '+0,52'],
       ['5,0', '10,87', '10,00', '+0,87'],
     ],
-    { hh: 8, rh: 7.6, size: 2.15, rowSize: 2.4 }
+    { hh: 8, rh: 7.6, size: 2.2, rowSize: 2.4 }
   );
 
   s += text(274, 88.5, 'A = sqrt((R+e+r)²−z²) − sqrt((R−e+r)²−z²)', {
-    size: 2.15,
+    size: 2.2,
   });
   s += text(274, 95.5, 'R=110; r=17,5; z=50', { size: 2.3 });
   s += line(272, 100, 406, 100, { sw: 0.25 });
@@ -578,28 +584,28 @@ function sheetKinematics() {
   ];
   let ty = 116;
   for (const t of theses) {
-    const lines = wrap(t, 2.35, 126);
+    const lines = wrap(t, 2.4, 128);
     s += rect(273.2, ty - 0.7, 1.3, 1.3, { fill: INK });
     lines.forEach((ln, i) => {
-      s += text(277.5, ty + i * 3.5, ln, { size: 2.35 });
+      s += text(277.5, ty + i * 3.6, ln, { size: 2.4 });
     });
-    ty += lines.length * 3.5 + 5.2;
+    ty += lines.length * 3.6 + 6.9;
   }
 
   // вывод
-  s += rect(272, 200, 134, 40, { fill: LIGHT, stroke: 'none' });
-  s += rect(272, 200, 1.6, 40, { fill: RED, stroke: 'none' });
-  s += text(277, 209, 'ВЫВОД', { size: 2.7, weight: 'bold', fill: RED });
+  s += rect(272, 196, 134, 42, { fill: LIGHT, stroke: 'none' });
+  s += rect(272, 196, 1.6, 42, { fill: RED, stroke: 'none' });
+  s += text(277, 205, 'ВЫВОД', { size: 2.7, weight: 'bold', fill: RED });
   const concl = [
     'Фактическая амплитуда 10,87 мм > 10 мм.',
     'A ≠ 2e: требование линейности не выполняется.',
     'Нужны e ≈ 1,38 / 2,76 / 4,60 мм либо новая схема привода.',
   ];
   concl.forEach((c, i) => {
-    s += text(277, 218 + i * 6.4, c, { size: 2.3 });
+    s += text(277, 214 + i * 6.8, c, { size: 2.3 });
   });
-  s += text(274, 252, 'Проверено численно по 60 точкам; см. график слева.', {
-    size: 2.15,
+  s += text(274, 254, 'Проверено численно по 60 точкам; см. график слева.', {
+    size: 2.2,
     fill: MID,
   });
 
@@ -638,7 +644,7 @@ function sheetDynamics() {
   s += rect(144, 118, 34, 4, { fill: 'url(#hatch)', stroke: INK, sw: 0.45 });
   s += line(92, 118, 126, 118, { sw: 0.55 });
   s += line(144, 118, 178, 118, { sw: 0.55 });
-  s += text(94, 127, 'подстолье', { size: 2.15, fill: MID });
+  s += text(94, 127, 'подстолье', { size: 2.2, fill: MID });
 
   // кронштейн ролика
   s += line(128, 88, 128, 124, { sw: 0.45 });
@@ -648,25 +654,25 @@ function sheetDynamics() {
   // ролик и кулачок
   s += circle(135, 124, 5, { fill: WHITE, stroke: INK, sw: 0.5 });
   s += circle(135, 124, 1.4, { fill: WHITE, stroke: INK, sw: 0.35 });
-  s += circle(135, 142, 18, { fill: LIGHT, stroke: INK, sw: 0.55 });
-  s += circle(135, 142, 3, { fill: WHITE, stroke: INK, sw: 0.4 });
-  s += line(135, 142, 148, 142, { sw: 0.25, dash: '3 1 0.8 1' });
+  s += circle(135, 147, 18, { fill: LIGHT, stroke: INK, sw: 0.55 });
+  s += circle(135, 147, 3, { fill: WHITE, stroke: INK, sw: 0.4 });
+  s += line(135, 147, 148, 147, { sw: 0.25, dash: '3 1 0.8 1' });
 
   // силы и координата
-  s += arrow(124, 88, 124, 104, { sw: 0.45, head: 2.0, hw: 0.7 });
-  s += text(122, 102.5, 'mg', { size: 2.4, anchor: 'end' });
+  s += arrow(135, 88, 135, 96.5, { sw: 0.45, head: 1.9, hw: 0.68 });
+  s += text(137.2, 94, 'mg', { size: 2.4 });
 
   s += arrow(135, 68, 135, 77, { sw: 0.45, head: 2.0, hw: 0.7 });
   s += text(133, 71.8, 'F_в', { size: 2.4, anchor: 'end' });
 
-  s += arrow(147, 112, 147, 94, { sw: 0.45, head: 2.0, hw: 0.7 });
-  s += text(148, 91.6, 'F_н', { size: 2.4 });
+  s += arrow(121, 112, 121, 94, { sw: 0.45, head: 2.0, hw: 0.7 });
+  s += text(122, 91.6, 'F_н', { size: 2.4 });
 
-  s += arrow(135, 121.8, 135, 98, { sw: 0.45, head: 2.0, hw: 0.7 });
-  s += text(136.5, 96, 'F_ц(t) ≥ 0', { size: 2.2 });
+  s += arrow(135, 121.8, 135, 100, { sw: 0.45, head: 2.0, hw: 0.7 });
+  s += text(133.1, 111, 'F_ц(t) ≥ 0', { size: 2.2, anchor: 'middle', rot: -90 });
 
-  s += arrow(88, 112, 88, 95, { sw: 0.35, head: 1.8, hw: 0.6, stroke: MID });
-  s += text(88, 92.2, 'x', { size: 2.5, anchor: 'middle', fill: MID });
+  s += arrow(86, 112, 86, 95, { sw: 0.35, head: 1.8, hw: 0.6, stroke: MID });
+  s += text(86, 92.2, 'x', { size: 2.5, anchor: 'middle', fill: MID });
 
   // --- формулы ------------------------------------------------------------
   s += text(182, 36, 'Уравнение движения', { size: 2.4, weight: 'bold', fill: MID });
@@ -713,7 +719,7 @@ function sheetDynamics() {
 
   // запас пружин
   s += line(px0, Y(6.3), px1, Y(6.3), { sw: 0.45, stroke: MID, dash: '2.4 1.3' });
-  s += text(44, 255, '6,3 Н — запас пружин без поджима', { size: 2.15, fill: MID });
+  s += text(44, 252, '6,3 Н — запас пружин без поджима', { size: 2.2, fill: MID });
 
   // точка 15 Гц
   const fx = X(15);
@@ -741,10 +747,10 @@ function sheetDynamics() {
     49,
     134,
     [
-      { t: 'f_соб, Гц', x: 274, align: 'start', size: 2.0 },
-      { t: 'k, Н/м', x: 322, align: 'end', size: 2.0 },
-      { t: 'стат. прогиб, мм', x: 366, align: 'end', size: 2.0 },
-      { t: 'F0 при 15 Гц/10 мм, Н', x: 404, align: 'end', size: 1.95 },
+      { t: 'f_соб, Гц', x: 274, align: 'start' },
+      { t: 'k, Н/м', x: 322, align: 'end' },
+      { t: 'стат. прогиб, мм', x: 366, align: 'end' },
+      { t: 'F0 при 15 Гц/10 мм, Н', x: 404, align: 'end', size: 2.1 },
     ],
     [
       ['3,5', '1257', '20,3', '109'],
@@ -752,13 +758,13 @@ function sheetDynamics() {
       ['10', '10264', '2,5', '64'],
       ['20', '41058', '0,6', '0'],
     ],
-    { hh: 9, rh: 8, size: 2.05, rowSize: 2.35 }
+    { hh: 9, rh: 8, size: 2.2, rowSize: 2.4 }
   );
 
-  s += text(274, 90, 'F0 = max(0, m·a − k·A/2)', { size: 2.3 });
-  s += text(274, 97, 'm=2,6 кг; a=44,4 м/с²; A/2=5 мм', { size: 2.15, fill: MID });
-  s += line(272, 101.5, 406, 101.5, { sw: 0.25 });
-  s += text(274, 107.5, 'ТЕЗИСЫ', { size: 2.5, weight: 'bold', fill: MID });
+  s += text(274, 97, 'F0 = max(0, m·a − k·A/2)', { size: 2.3 });
+  s += text(274, 104, 'm=2,6 кг; a=44,4 м/с²; A/2=5 мм', { size: 2.2, fill: MID });
+  s += line(272, 109, 406, 109, { sw: 0.25 });
+  s += text(274, 115.5, 'ТЕЗИСЫ', { size: 2.5, weight: 'bold', fill: MID });
 
   const theses = [
     'Пружины не заданы: нет d, L0, k, материала, поджима.',
@@ -768,23 +774,23 @@ function sheetDynamics() {
     'Резонанс 3–4 Гц; рабочий диапазон 5–15 Гц; пуск проходит через резонанс.',
     'Рекомендация: 4 верхние пружины, F0 ≥ 170 Н (2,6 кг) / 480 Н (5 кг), демпфер, ловители; проверить напряжение, усталость, surge.',
   ];
-  let ty = 117;
+  let ty = 125;
   for (const t of theses) {
-    const lines = wrap(t, 2.3, 126);
+    const lines = wrap(t, 2.3, 128);
     s += rect(273.2, ty - 0.7, 1.3, 1.3, { fill: INK });
     lines.forEach((ln, i) => s += text(277.5, ty + i * 3.4, ln, { size: 2.3 }));
-    ty += lines.length * 3.4 + 5.4;
+    ty += lines.length * 3.4 + 6.4;
   }
 
-  s += rect(272, 200, 134, 34, { fill: LIGHT, stroke: 'none' });
-  s += rect(272, 200, 1.6, 34, { fill: AMBER, stroke: 'none' });
-  s += text(277, 208, 'ПРОВЕРКА ПРИ 5 КГ', { size: 2.6, weight: 'bold', fill: AMBER });
-  s += text(277, 216, 'F = 337,6 Н — вне шкалы графика 0…140 Н.', { size: 2.2 });
-  s += text(277, 222.5, 'F0 ≥ 320 Н; все силы ×2,9 к варианту 2,6 кг.', { size: 2.2 });
-  s += text(277, 229, 'Верхние пружины должны держать стол на поджиме.', { size: 2.2 });
+  s += rect(272, 196, 134, 36, { fill: LIGHT, stroke: 'none' });
+  s += rect(272, 196, 1.6, 36, { fill: AMBER, stroke: 'none' });
+  s += text(277, 204.5, 'ПРОВЕРКА ПРИ 5 КГ', { size: 2.6, weight: 'bold', fill: AMBER });
+  s += text(277, 212.5, 'F = 337,6 Н — вне шкалы графика 0…140 Н.', { size: 2.2 });
+  s += text(277, 219, 'F0 ≥ 320 Н; все силы ×2,9 к варианту 2,6 кг.', { size: 2.2 });
+  s += text(277, 225.5, 'Верхние пружины должны держать стол на поджиме.', { size: 2.2 });
 
   s += text(274, 252, 'Источник: Report.md, разделы «Динамика» и «Пружины».', {
-    size: 2.1,
+    size: 2.2,
     fill: MID,
   });
 
@@ -834,8 +840,6 @@ function sheetSafety() {
   let s = '';
 
   // --- вид сбоку ----------------------------------------------------------
-  s += text(15, 37, 'Вид сбоку, схематично', { size: 2.4, weight: 'bold', fill: MID });
-
   // рама
   s += rect(20, 178, 120, 5, { fill: 'url(#hatch)', stroke: INK, sw: 0.5 });
   s += rect(26, 49, 5, 129, { fill: LIGHT, stroke: INK, sw: 0.45 });
@@ -859,40 +863,44 @@ function sheetSafety() {
   s += circle(79, 81, 4.4, { fill: WHITE, stroke: INK, sw: 0.45 });
   s += circle(91, 81, 4.4, { fill: WHITE, stroke: INK, sw: 0.45 });
 
-  // дрель, патрон, крепление
-  s += rect(76, 112, 18, 4, { fill: LIGHT, stroke: INK, sw: 0.45 }); // патрон
-  s += rect(70, 116, 30, 34, { fill: LIGHT, stroke: INK, sw: 0.5, rx: 2 });
-  s += rect(56, 124, 14, 6, { fill: LIGHT, stroke: INK, sw: 0.45 });
-  s += rect(72, 143, 26, 4, { fill: 'url(#hatch)', stroke: INK, sw: 0.45 });
+  // дрель: патрон, корпус, хомут, рукоятка
+  s += poly([[78, 111], [92, 111], [95, 118], [75, 118]], { fill: LIGHT, sw: 0.45 });
+  s += rect(70, 118, 30, 34, { fill: LIGHT, stroke: INK, sw: 0.5, rx: 2 });
+  s += rect(68, 119, 34, 5, { fill: LIGHT, stroke: INK, sw: 0.45 });
+  s += rect(56, 128, 14, 6, { fill: LIGHT, stroke: INK, sw: 0.45 });
   // шнур и пуск
-  s += path('M 70 147 C 56 152, 46 156, 38 159', { sw: 0.4 });
+  s += path('M 70 150 C 56 154, 46 156, 39 158', { sw: 0.4 });
   s += rect(33, 155, 8, 6, { fill: WHITE, stroke: INK, sw: 0.45, rx: 0.8 });
   s += circle(37, 158, 1.1, { fill: RED, stroke: RED, sw: 0.2 });
 
-  // шарик
-  s += circle(100, 81, 2.4, { fill: WHITE, stroke: INK, sw: 0.4 });
+  // шарик у стола
+  s += circle(116, 81, 2.4, { fill: WHITE, stroke: INK, sw: 0.4 });
 
   // зоны
-  s += badge(70, 90, 1, RED);
-  s += badge(78, 114, 2, RED);
-  s += badge(48, 64, 3, AMBER);
-  s += badge(36, 46, 4, RED);
-  s += badge(74, 122, 5, AMBER);
-  s += badge(100, 81, 6, AMBER);
-  s += badge(40, 158, 7, RED);
+  s += badge(92, 100, 1, RED);
+  s += badge(88, 114, 2, RED);
+  s += badge(51, 68, 3, AMBER);
+  s += badge(54, 45.5, 4, RED);
+  s += badge(72, 122, 5, AMBER);
+  s += badge(116, 81, 6, AMBER);
+  s += badge(48, 158, 7, RED);
 
   // короткие подписи зон
-  const lbl = (tx, ty, ax, ay, str, anchor = 'start') =>
-    text(tx, ty, str, { size: 2.2, anchor }) + line(tx, ty, ax, ay, { sw: 0.18 });
+  const lbl = (tx, ty, ax, ay, str, anchor = 'start') => {
+    const w = tw(str, 2.2);
+    const x0 = anchor === 'end' ? tx - w : anchor === 'middle' ? tx - w / 2 : tx;
+    const sx = Math.abs(x0 - ax) < Math.abs(x0 + w - ax) ? x0 : x0 + w;
+    return text(tx, ty, str, { size: 2.2, anchor }) + line(sx, ty, ax, ay, { sw: 0.18 });
+  };
 
-  s += lbl(101, 92, 74, 90, '1 кулачок');
-  s += line(100, 103.4, 88, 112.4, { sw: 0.18 });
-  s += text(101, 104, '2 патрон', { size: 2.2 });
-  s += lbl(33, 58, 48, 64, '3 стол/пружины');
-  s += lbl(33, 38, 36, 45, '4 плита/шпильки');
-  s += lbl(104, 132, 97, 128, '5 дрель');
-  s += lbl(103, 88, 100.6, 83.6, '6 шарик');
-  s += lbl(44, 164, 40, 160, '7 пуск');
+  s += lbl(102, 102, 96, 100.5, '1 кулачок');
+  s += text(68, 104, '2 патрон', { size: 2.2, anchor: 'end' });
+  s += polyline([[68, 105], [70, 110.5], [84, 113]], { sw: 0.18 });
+  s += lbl(33, 58, 48, 66, '3 стол/пружины');
+  s += lbl(33, 37, 52, 43.5, '4 плита/шпильки');
+  s += lbl(62, 124, 67, 123, '5 дрель', 'end');
+  s += lbl(112, 90, 115, 84.5, '6 шарик');
+  s += lbl(60, 170, 50, 160.5, '7 пуск');
 
   // --- легенда ------------------------------------------------------------
   s += line(15, 192, 160, 192, { sw: 0.3 });
@@ -916,12 +924,12 @@ function sheetSafety() {
     for (let k = 0; k < perCol[c]; k++) {
       const it = items[idx++];
       s += text(cols[c], y, `${it[0]} ${it[1]}`, { size: 2.3, weight: 'bold', fill: it[4] });
-      const d = wrap('опасность: ' + it[2], 2.05, 67);
-      const m = wrap('мера: ' + it[3], 2.05, 67);
-      let yy = y + 4.6;
-      d.forEach((ln) => { s += text(cols[c], yy, ln, { size: 2.05 }); yy += 2.8; });
-      m.forEach((ln) => { s += text(cols[c], yy, ln, { size: 2.05, fill: MID }); yy += 2.8; });
-      y = yy + 2.4;
+      const d = wrap('опасность: ' + it[2], 2.2, 68);
+      const m = wrap('мера: ' + it[3], 2.2, 68);
+      let yy = y + 4.8;
+      d.forEach((ln) => { s += text(cols[c], yy, ln, { size: 2.2 }); yy += 3.0; });
+      m.forEach((ln) => { s += text(cols[c], yy, ln, { size: 2.2, fill: MID }); yy += 3.0; });
+      y = yy + 2.0;
     }
   }
 
@@ -952,47 +960,50 @@ function sheetSafety() {
   s += circle(246, 76, 2.4, { fill: WHITE, stroke: INK, sw: 0.35 });
   // кожух
   s += rect(232, 58, 26, 36, { fill: 'none', stroke: INK, sw: 0.45, dash: '2.2 1.4', rx: 1.5 });
-  s += text(236, 56.4, 'кожух', { size: 2.05, fill: MID });
+  s += text(236, 56.4, 'кожух', { size: 2.2, fill: MID });
 
   // подписи привода
   const pl = (tx, ty, ax, ay, str, size = 2.2) =>
     text(tx, ty, str, { size }) + line(tx, ty, ax, ay, { sw: 0.18 });
 
   s += pl(170, 100, 176, 92, 'дрель');
-  s += pl(192, 108, 200, 82, 'муфта');
-  s += pl(209, 100, 213, 81.8, '2 подшипника');
-  s += pl(226, 108, 237, 83, 'фланец + штифты');
-  s += pl(255, 100, 250, 85, 'кулачок', 2.2);
-  s += pl(252, 118, 256, 88, 'кожух + блокировка', 2.15);
+  s += pl(186, 108, 200, 82, 'муфта');
+  s += pl(202, 100, 212, 81.8, '2 подшипника');
+  s += pl(214, 116, 237, 84, 'фланец + штифты');
+  s += pl(236, 98, 246, 87, 'кулачок');
+  s += pl(238, 110, 252, 94, 'кожух + блокировка', 2.15);
   s += text(170, 128, 'E-stop', { size: 2.2, weight: 'bold', fill: RED });
-  s += circle(178, 127.4, 1.4, { fill: RED, stroke: RED, sw: 0.2 });
-  s += text(170, 140, 'радиальная нагрузка на патрон = 0;', { size: 2.15 });
-  s += text(170, 146, 'биение ≤ 0,05 мм', { size: 2.15 });
+  s += circle(184, 128, 1.5, { fill: RED, stroke: RED, sw: 0.2 });
+  s += text(170, 140, 'радиальная нагрузка на патрон = 0;', { size: 2.2 });
+  s += text(170, 146, 'биение ≤ 0,05 мм', { size: 2.2 });
 
   // --- правая панель ------------------------------------------------------
   s += panel(268, 32, 142, 253, 'СВОДКА');
 
   const block = (y, title, color, rows, count) => {
-    let out = rect(272, y - 4.5, 1.8, 40, { fill: color, stroke: 'none' });
+    const h = 9 + (rows.length - 1) * 6.6 + 5;
+    let out = rect(272, y - 6, 1.8, h + 12, { fill: color, stroke: 'none' });
     out += text(277, y, `${title} · ${count}`, { size: 2.9, weight: 'bold', fill: color });
     rows.forEach((r, i) => {
-      out += text(277, y + 8.5 + i * 6.6, `${i + 1}. ${r}`, { size: 2.2 });
+      out += text(277, y + 8.5 + i * 6.6, `${i + 1}. ${r}`, { size: 2.35 });
     });
     return out;
   };
 
-  s += block(46, 'КРИТИЧНО', RED, CRIT, 7);
-  s += block(116, 'ВАЖНО', AMBER, IMPORTANT, 14);
-  s += block(193, 'ПОЖЕЛАНИЯ', BLUE, WISH, 9);
+  s += block(56, 'КРИТИЧНО', RED, CRIT, 7);
+  s += block(120, 'ВАЖНО', AMBER, IMPORTANT, 17);
+  s += block(192, 'ПОЖЕЛАНИЯ', BLUE, WISH, 9);
 
-  s += line(272, 232, 406, 232, { sw: 0.3 });
-  s += text(274, 238, 'Показаны главные пункты (7 / 8 / 6 из 30).', {
-    size: 2.1,
-    fill: MID,
-  });
+  s += line(272, 248, 406, 248, { sw: 0.3 });
+  s += text(
+    274,
+    254,
+    'Показаны главные пункты: 7 критичных, 8 важных, 6 пожеланий; полный перечень — Report.md.',
+    { size: 2.2, fill: MID }
+  );
   s += rect(272, 262, 134, 15, { fill: LIGHT, stroke: 'none' });
   s += text(277, 268, 'Полный перечень и расчёты — Report.md.', { size: 2.2 });
-  s += text(277, 273.4, 'Интервью и допущения — Interview.md.', { size: 2.1, fill: MID });
+  s += text(277, 273.4, 'Интервью и допущения — Interview.md.', { size: 2.2, fill: MID });
 
   return s;
 }
@@ -1008,7 +1019,7 @@ function verify(name) {
     const x1 = x0 + w;
     const y0 = b.y - b.size / 2;
     const y1 = b.y + b.size / 2;
-    if (x0 < 11 || x1 > 409 || y0 < 11 || y1 > 289) {
+    if (x0 < 11 || x1 > 409 || y0 < 11 || y1 > 291.5) {
       console.error(
         `[${name}] вне листа: "${b.s}" x ${x0.toFixed(1)}..${x1.toFixed(1)} y ${y0.toFixed(1)}..${y1.toFixed(1)}`
       );
@@ -1029,7 +1040,7 @@ const SUB = {
     'Фактическая амплитуда стола: 3,26 / 6,52 / 10,87 мм при e = 1,5 / 3 / 5 мм',
   'dynamics.svg':
     'При 15 Гц и размахе 10 мм: ускорение 4,5g, сила 115,5 Н; без поджима ≥110 Н стол отрывается',
-  'safety.svg': '7 критичных, 14 важных, 9 пожеланий; полный перечень — Report.md',
+  'safety.svg': '7 критичных, 17 важных, 9 пожеланий; полный перечень — Report.md',
 };
 
 let totalBad = 0;
