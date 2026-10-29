@@ -1,0 +1,554 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="#ffffff"/>
+<rect x="5.00" y="5.00" width="410.00" height="287.00" fill="none" stroke="#000" stroke-width="0.50"/>
+<text x="210.00" y="16.00" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="8.00" font-weight="bold">СПЕЦИФИКАЦИЯ ДЕТАЛЕЙ</text>
+<text x="210.00" y="23.00" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="3.40">Вибростол · этап «модель» · единицы: мм</text>
+<rect x="10.00" y="30.00" width="10.00" height="6.50" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="11.20" y="34.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">№</text>
+<rect x="20.00" y="30.00" width="100.00" height="6.50" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="21.20" y="34.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Наименование</text>
+<rect x="120.00" y="30.00" width="14.00" height="6.50" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="121.20" y="34.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Кол-во</text>
+<rect x="134.00" y="30.00" width="32.00" height="6.50" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="135.20" y="34.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Материал</text>
+<rect x="166.00" y="30.00" width="20.00" height="6.50" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="167.20" y="34.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Масса, г</text>
+<rect x="186.00" y="30.00" width="46.00" height="6.50" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="187.20" y="34.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Примечание</text>
+<text x="15.00" y="40.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="21.20" y="40.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Балка фиксации подшипника</text>
+<text x="127.00" y="40.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">2</text>
+<text x="135.20" y="40.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="40.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">48.4</text>
+<text x="187.20" y="40.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<rect x="10.00" y="43.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="47.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">2</text>
+<text x="21.20" y="47.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Болт М6×25</text>
+<text x="127.00" y="47.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">8</text>
+<text x="135.20" y="47.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="47.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">8.5</text>
+<text x="187.20" y="47.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="53.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">3</text>
+<text x="21.20" y="53.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Болт М6×25 (подстолье)</text>
+<text x="127.00" y="53.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="53.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="53.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">8.5</text>
+<text x="187.20" y="53.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="56.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="60.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="21.20" y="60.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Болт потайной М4×20</text>
+<text x="127.00" y="60.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="60.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="60.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">3.0</text>
+<text x="187.20" y="60.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="66.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">5</text>
+<text x="21.20" y="66.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Вал Ø10×120</text>
+<text x="127.00" y="66.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="66.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="66.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">74.0</text>
+<text x="187.20" y="66.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<rect x="10.00" y="69.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="73.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">6</text>
+<text x="21.20" y="73.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Вал привода — шпилька М10</text>
+<text x="127.00" y="73.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="73.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="73.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">141.8</text>
+<text x="187.20" y="73.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<text x="15.00" y="79.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">7</text>
+<text x="21.20" y="79.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Гайка М10</text>
+<text x="127.00" y="79.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="79.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="79.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">15.7</text>
+<text x="187.20" y="79.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="82.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="86.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">8</text>
+<text x="21.20" y="86.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Гайка М10 (кулачок)</text>
+<text x="127.00" y="86.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">2</text>
+<text x="135.20" y="86.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="86.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">15.7</text>
+<text x="187.20" y="86.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="92.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">9</text>
+<text x="21.20" y="92.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Гайка М4</text>
+<text x="127.00" y="92.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="92.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="92.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">1.1</text>
+<text x="187.20" y="92.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="95.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="99.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">10</text>
+<text x="21.20" y="99.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Гайка М6</text>
+<text x="127.00" y="99.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="99.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="99.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">3.4</text>
+<text x="187.20" y="99.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="105.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">11</text>
+<text x="21.20" y="105.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Дрель (условно, покупная)</text>
+<text x="127.00" y="105.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="105.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">—</text>
+<text x="167.20" y="105.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">693.1</text>
+<text x="187.20" y="105.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное, условно</text>
+<rect x="10.00" y="108.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="112.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">12</text>
+<text x="21.20" y="112.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Контрагайка М10</text>
+<text x="127.00" y="112.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="112.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="112.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">11.8</text>
+<text x="187.20" y="112.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="118.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">13</text>
+<text x="21.20" y="118.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Конусная гайка М10</text>
+<text x="127.00" y="118.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="118.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="118.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">7.5</text>
+<text x="187.20" y="118.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="121.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="125.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">14</text>
+<text x="21.20" y="125.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Краб-система (зажим 20×20)</text>
+<text x="127.00" y="125.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="125.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="125.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">46.2</text>
+<text x="187.20" y="125.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="131.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">15</text>
+<text x="21.20" y="131.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Кронштейн угловой 40×40×20×2</text>
+<text x="127.00" y="131.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="131.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="131.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">21.2</text>
+<text x="187.20" y="131.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<rect x="10.00" y="134.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="138.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">16</text>
+<text x="21.20" y="138.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Кулачковый диск (3D печать)</text>
+<text x="127.00" y="138.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="138.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">PLA (3D печать)</text>
+<text x="167.20" y="138.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">111.6</text>
+<text x="187.20" y="138.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">3D печать</text>
+<text x="15.00" y="144.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">17</text>
+<text x="21.20" y="144.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Линейный подшипник LMF10UU</text>
+<text x="127.00" y="144.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="144.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="144.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">132.0</text>
+<text x="187.20" y="144.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="147.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="151.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">18</text>
+<text x="21.20" y="151.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Накладка вогнутая (3D печать)</text>
+<text x="127.00" y="151.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="151.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">PLA (3D печать)</text>
+<text x="167.20" y="151.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">258.4</text>
+<text x="187.20" y="151.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">3D печать</text>
+<text x="15.00" y="157.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">19</text>
+<text x="21.20" y="157.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Ограничитель вала</text>
+<text x="127.00" y="157.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="157.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="157.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">64.9</text>
+<text x="187.20" y="157.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<rect x="10.00" y="160.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="164.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">20</text>
+<text x="21.20" y="164.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Ось ролика М10</text>
+<text x="127.00" y="164.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">2</text>
+<text x="135.20" y="164.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="164.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">28.4</text>
+<text x="187.20" y="164.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<text x="15.00" y="170.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">21</text>
+<text x="21.20" y="170.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Подстолье (фанера 12)</text>
+<text x="127.00" y="170.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="170.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Фанера</text>
+<text x="167.20" y="170.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">258.1</text>
+<text x="187.20" y="170.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<rect x="10.00" y="173.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="177.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">22</text>
+<text x="21.20" y="177.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Подшипник вала 6200</text>
+<text x="127.00" y="177.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">2</text>
+<text x="135.20" y="177.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="177.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">44.4</text>
+<text x="187.20" y="177.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="183.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">23</text>
+<text x="21.20" y="183.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Подшипник-ролик 6200</text>
+<text x="127.00" y="183.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">2</text>
+<text x="135.20" y="183.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="183.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">44.4</text>
+<text x="187.20" y="183.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="186.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="190.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">24</text>
+<text x="21.20" y="190.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Прокладка под дрель</text>
+<text x="127.00" y="190.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="190.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Резина</text>
+<text x="167.20" y="190.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">156.4</text>
+<text x="187.20" y="190.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<text x="15.00" y="196.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">25</text>
+<text x="21.20" y="196.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Пружина прижимная</text>
+<text x="127.00" y="196.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="196.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="196.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">5.8</text>
+<text x="187.20" y="196.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="199.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="203.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">26</text>
+<text x="21.20" y="203.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Рама сварная</text>
+<text x="127.00" y="203.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="203.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="203.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">4352.6</text>
+<text x="187.20" y="203.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<text x="15.00" y="209.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">27</text>
+<text x="21.20" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Соединительная гайка М10</text>
+<text x="127.00" y="209.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">58.9</text>
+<text x="187.20" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<rect x="10.00" y="212.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="216.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">28</text>
+<text x="21.20" y="216.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Стол (фанера 10)</text>
+<text x="127.00" y="216.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="216.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Фанера</text>
+<text x="167.20" y="216.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">140.4</text>
+<text x="187.20" y="216.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<text x="15.00" y="222.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">29</text>
+<text x="21.20" y="222.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Хвостовик-шпилька М10</text>
+<text x="127.00" y="222.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">1</text>
+<text x="135.20" y="222.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Сталь</text>
+<text x="167.20" y="222.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">40.1</text>
+<text x="187.20" y="222.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80"></text>
+<rect x="10.00" y="225.00" width="222.00" height="6.50" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="15.00" y="229.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">30</text>
+<text x="21.20" y="229.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Хомут U-образный М6</text>
+<text x="127.00" y="229.40" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">2</text>
+<text x="135.20" y="229.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="229.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">44.1</text>
+<text x="187.20" y="229.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<text x="15.00" y="235.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">31</text>
+<text x="21.20" y="235.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Шайба 10</text>
+<text x="127.00" y="235.90" text-anchor="middle" fill="#000" font-family="DejaVu Sans" font-size="2.80">4</text>
+<text x="135.20" y="235.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">Покупное</text>
+<text x="167.20" y="235.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">3.6</text>
+<text x="187.20" y="235.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.80">покупное</text>
+<line x1="10.00" y1="30.00" x2="10.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="20.00" y1="30.00" x2="20.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="120.00" y1="30.00" x2="120.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="134.00" y1="30.00" x2="134.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="166.00" y1="30.00" x2="166.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="186.00" y1="30.00" x2="186.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="232.00" y1="30.00" x2="232.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="30.00" x2="232.00" y2="30.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="36.50" x2="232.00" y2="36.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="43.00" x2="232.00" y2="43.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="49.50" x2="232.00" y2="49.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="56.00" x2="232.00" y2="56.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="62.50" x2="232.00" y2="62.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="69.00" x2="232.00" y2="69.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="75.50" x2="232.00" y2="75.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="82.00" x2="232.00" y2="82.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="88.50" x2="232.00" y2="88.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="95.00" x2="232.00" y2="95.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="101.50" x2="232.00" y2="101.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="108.00" x2="232.00" y2="108.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="114.50" x2="232.00" y2="114.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="121.00" x2="232.00" y2="121.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="127.50" x2="232.00" y2="127.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="134.00" x2="232.00" y2="134.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="140.50" x2="232.00" y2="140.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="147.00" x2="232.00" y2="147.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="153.50" x2="232.00" y2="153.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="160.00" x2="232.00" y2="160.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="166.50" x2="232.00" y2="166.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="173.00" x2="232.00" y2="173.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="179.50" x2="232.00" y2="179.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="186.00" x2="232.00" y2="186.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="192.50" x2="232.00" y2="192.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="199.00" x2="232.00" y2="199.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="205.50" x2="232.00" y2="205.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="212.00" x2="232.00" y2="212.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="218.50" x2="232.00" y2="218.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="225.00" x2="232.00" y2="225.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="231.50" x2="232.00" y2="231.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="10.00" y1="238.00" x2="232.00" y2="238.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<rect x="245.00" y="30.00" width="55.00" height="4.90" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="246.00" y="33.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Параметр</text>
+<rect x="300.00" y="30.00" width="22.00" height="4.90" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="301.00" y="33.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Обозначение</text>
+<rect x="322.00" y="30.00" width="16.00" height="4.90" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="323.00" y="33.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Значение</text>
+<rect x="338.00" y="30.00" width="10.00" height="4.90" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="339.00" y="33.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ед.</text>
+<rect x="348.00" y="30.00" width="55.00" height="4.90" fill="#e8e8e8" stroke="#000" stroke-width="0.25"/>
+<text x="349.00" y="33.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Примечание</text>
+<text x="246.00" y="38.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Рама: длина</text>
+<text x="301.00" y="38.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">L_рам</text>
+<text x="323.00" y="38.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">400</text>
+<text x="339.00" y="38.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="38.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз, вид сверху 400</text>
+<rect x="245.00" y="39.80" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="43.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Рама: ширина</text>
+<text x="301.00" y="43.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">W_рам</text>
+<text x="323.00" y="43.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">200</text>
+<text x="339.00" y="43.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="43.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз, вид сверху 200</text>
+<text x="246.00" y="48.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Рама: высота</text>
+<text x="301.00" y="48.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">H_рам</text>
+<text x="323.00" y="48.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">300</text>
+<text x="339.00" y="48.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="48.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз, вид спереди 300</text>
+<rect x="245.00" y="49.60" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="53.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Профильная труба</text>
+<text x="301.00" y="53.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">a×s</text>
+<text x="323.00" y="53.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.40">20×20×1.5</text>
+<text x="339.00" y="53.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="53.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз: 20×20, стенка 1.5</text>
+<text x="246.00" y="58.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Вибро-байон</text>
+<text x="301.00" y="58.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">L_в</text>
+<text x="323.00" y="58.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">200</text>
+<text x="339.00" y="58.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="58.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">200×200</text>
+<rect x="245.00" y="59.40" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="62.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Байон дрели</text>
+<text x="301.00" y="62.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">L_д</text>
+<text x="323.00" y="62.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">200</text>
+<text x="339.00" y="62.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="62.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">200×200</text>
+<text x="246.00" y="67.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Верх вибро-байона</text>
+<text x="301.00" y="67.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z_топ</text>
+<text x="323.00" y="67.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">300</text>
+<text x="339.00" y="67.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="67.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">верхняя плоскость рамы</text>
+<rect x="245.00" y="69.20" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="72.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Верх подстолья</text>
+<text x="301.00" y="72.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z_др</text>
+<text x="323.00" y="72.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">200</text>
+<text x="339.00" y="72.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="72.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">рабочая плоскость; рама 188</text>
+<text x="246.00" y="77.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Поперечины подшипников</text>
+<text x="301.00" y="77.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">x_п</text>
+<text x="323.00" y="77.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">80; 120</text>
+<text x="339.00" y="77.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="77.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">симметрично кулачку</text>
+<rect x="245.00" y="79.00" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="82.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ось вала привода</text>
+<text x="301.00" y="82.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z_в</text>
+<text x="323.00" y="82.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">150</text>
+<text x="339.00" y="82.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="82.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">высота оси</text>
+<text x="246.00" y="87.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Стол: размер</text>
+<text x="301.00" y="87.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">B×D</text>
+<text x="323.00" y="87.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">156×156</text>
+<text x="339.00" y="87.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="87.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз 160, уменьшено под зазоры 2…</text>
+<rect x="245.00" y="88.80" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="92.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Стол: толщина</text>
+<text x="301.00" y="92.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">t_ст</text>
+<text x="323.00" y="92.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">10</text>
+<text x="339.00" y="92.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="92.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">фанера 10</text>
+<text x="246.00" y="97.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Стол: низ</text>
+<text x="301.00" y="97.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z_ст</text>
+<text x="323.00" y="97.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">224</text>
+<text x="339.00" y="97.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="97.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">верх 234</text>
+<rect x="245.00" y="98.60" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="102.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Накладка: размер</text>
+<text x="301.00" y="102.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">B_н×D_н</text>
+<text x="323.00" y="102.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">150×150</text>
+<text x="339.00" y="102.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="102.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">3D печать</text>
+<text x="246.00" y="107.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Накладка: толщина</text>
+<text x="301.00" y="107.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">t_н</text>
+<text x="323.00" y="107.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">10</text>
+<text x="339.00" y="107.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="107.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">3D печать</text>
+<rect x="245.00" y="108.40" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="111.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Накладка: вогнутость</text>
+<text x="301.00" y="111.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">R_сферы</text>
+<text x="323.00" y="111.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">1500</text>
+<text x="339.00" y="111.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="111.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">стрела прогиба 1.9 мм</text>
+<text x="246.00" y="116.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Вал: диаметр</text>
+<text x="301.00" y="116.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">d_в</text>
+<text x="323.00" y="116.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">10</text>
+<text x="339.00" y="116.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="116.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз Ø10</text>
+<rect x="245.00" y="118.20" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="121.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Вал: длина</text>
+<text x="301.00" y="121.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">L_в</text>
+<text x="323.00" y="121.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">120</text>
+<text x="339.00" y="121.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="121.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z 180…300</text>
+<text x="246.00" y="126.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Вал: шаг по X</text>
+<text x="301.00" y="126.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">2a</text>
+<text x="323.00" y="126.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">108</text>
+<text x="339.00" y="126.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="126.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">±54 от центра байона</text>
+<rect x="245.00" y="128.00" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="131.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Вал: шаг по Y</text>
+<text x="301.00" y="131.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">2b</text>
+<text x="323.00" y="131.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">108</text>
+<text x="339.00" y="131.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="131.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">±54 от центра байона</text>
+<text x="246.00" y="136.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Зазор стол — стойки</text>
+<text x="301.00" y="136.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z_с</text>
+<text x="323.00" y="136.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">2</text>
+<text x="339.00" y="136.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="136.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">свободный ход по X/Y</text>
+<rect x="245.00" y="137.80" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="141.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Зазор фланец LMF — кромка</text>
+<text x="301.00" y="141.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z_фл</text>
+<text x="323.00" y="141.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">3</text>
+<text x="339.00" y="141.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="141.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">фланец Ø42 полностью на столе</text>
+<text x="246.00" y="146.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Линейный подшипник</text>
+<text x="301.00" y="146.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">LMF10UU</text>
+<text x="323.00" y="146.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.00">10×22×30,…</text>
+<text x="339.00" y="146.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="146.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">покупной</text>
+<rect x="245.00" y="147.60" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="151.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Пружина: наружный Ø</text>
+<text x="301.00" y="151.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">D_пр</text>
+<text x="323.00" y="151.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">18</text>
+<text x="339.00" y="151.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="151.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">покупная/навивка</text>
+<text x="246.00" y="156.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Пружина: проволока</text>
+<text x="301.00" y="156.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">d_пр</text>
+<text x="323.00" y="156.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">1.5</text>
+<text x="339.00" y="156.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="156.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60"></text>
+<rect x="245.00" y="157.40" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="160.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Пружина: свободная длина</text>
+<text x="301.00" y="160.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">L0</text>
+<text x="323.00" y="160.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">70</text>
+<text x="339.00" y="160.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="160.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60"></text>
+<text x="246.00" y="165.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Пружина: монтажная длина</text>
+<text x="301.00" y="165.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">L_м</text>
+<text x="323.00" y="165.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">56</text>
+<text x="339.00" y="165.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="165.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">между столом и планкой</text>
+<rect x="245.00" y="167.20" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="170.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Кулачок: Rmin</text>
+<text x="301.00" y="170.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">R_min</text>
+<text x="323.00" y="170.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">45</text>
+<text x="339.00" y="170.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="170.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз</text>
+<text x="246.00" y="175.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Кулачок: Rmax</text>
+<text x="301.00" y="175.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">R_max</text>
+<text x="323.00" y="175.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">50</text>
+<text x="339.00" y="175.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="175.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз</text>
+<rect x="245.00" y="177.00" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="180.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Кулачок: толщина</text>
+<text x="301.00" y="180.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">t_к</text>
+<text x="323.00" y="180.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">14</text>
+<text x="339.00" y="180.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="180.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">3D печать</text>
+<text x="246.00" y="185.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Кулачок: ложбинка</text>
+<text x="301.00" y="185.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">b×h</text>
+<text x="323.00" y="185.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">8×1.5</text>
+<text x="339.00" y="185.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="185.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">эскиз 1–2 мм</text>
+<rect x="245.00" y="186.80" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="190.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ход стола</text>
+<text x="301.00" y="190.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">S</text>
+<text x="323.00" y="190.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">5</text>
+<text x="339.00" y="190.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="190.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Rmax-Rmin, требование 3…10</text>
+<text x="246.00" y="195.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ролик</text>
+<text x="301.00" y="195.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">6200</text>
+<text x="323.00" y="195.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">10×30×9</text>
+<text x="339.00" y="195.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="195.20" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">покупной</text>
+<rect x="245.00" y="196.60" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="200.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ролик: координата Y</text>
+<text x="301.00" y="200.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">y_р</text>
+<text x="323.00" y="200.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">30</text>
+<text x="339.00" y="200.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="200.10" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">±30, симметрично</text>
+<text x="246.00" y="205.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ролик: координата Z</text>
+<text x="301.00" y="205.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">z_р</text>
+<text x="323.00" y="205.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">207</text>
+<text x="339.00" y="205.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="205.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">центр</text>
+<rect x="245.00" y="206.40" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Кронштейн</text>
+<text x="301.00" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">40×40×20×2</text>
+<text x="323.00" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60"></text>
+<text x="339.00" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="209.90" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">уголок, эскиз</text>
+<text x="246.00" y="214.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ось ролика</text>
+<text x="301.00" y="214.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">M10</text>
+<text x="323.00" y="214.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ø10×46</text>
+<text x="339.00" y="214.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="214.80" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">шпилька</text>
+<rect x="245.00" y="216.20" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="219.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Вал привода</text>
+<text x="301.00" y="219.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">M10</text>
+<text x="323.00" y="219.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Ø10×230</text>
+<text x="339.00" y="219.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="219.70" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">шпилька М10</text>
+<text x="246.00" y="224.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Подшипник вала</text>
+<text x="301.00" y="224.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">6200</text>
+<text x="323.00" y="224.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">10×30×9</text>
+<text x="339.00" y="224.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="224.60" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">2 шт.</text>
+<rect x="245.00" y="226.00" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="229.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Подстолье</text>
+<text x="301.00" y="229.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">B×D×t</text>
+<text x="323.00" y="229.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.00">190×190×12</text>
+<text x="339.00" y="229.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="229.50" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">фанера 12</text>
+<text x="246.00" y="234.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Хомут дрели</text>
+<text x="301.00" y="234.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">М6</text>
+<text x="323.00" y="234.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.20">R≈25, h=60</text>
+<text x="339.00" y="234.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="234.40" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">U-образный, эскиз</text>
+<rect x="245.00" y="235.80" width="158.00" height="4.90" fill="#f6f6f6" stroke="#000" stroke-width="0.00"/>
+<text x="246.00" y="239.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">Прокладка под дрель</text>
+<text x="301.00" y="239.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">t</text>
+<text x="323.00" y="239.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">17</text>
+<text x="339.00" y="239.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">мм</text>
+<text x="349.00" y="239.30" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="2.60">резина/фанера</text>
+<line x1="245.00" y1="30.00" x2="245.00" y2="240.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="300.00" y1="30.00" x2="300.00" y2="240.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="322.00" y1="30.00" x2="322.00" y2="240.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="338.00" y1="30.00" x2="338.00" y2="240.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="348.00" y1="30.00" x2="348.00" y2="240.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="403.00" y1="30.00" x2="403.00" y2="240.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="30.00" x2="403.00" y2="30.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="34.90" x2="403.00" y2="34.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="39.80" x2="403.00" y2="39.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="44.70" x2="403.00" y2="44.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="49.60" x2="403.00" y2="49.60" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="54.50" x2="403.00" y2="54.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="59.40" x2="403.00" y2="59.40" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="64.30" x2="403.00" y2="64.30" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="69.20" x2="403.00" y2="69.20" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="74.10" x2="403.00" y2="74.10" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="79.00" x2="403.00" y2="79.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="83.90" x2="403.00" y2="83.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="88.80" x2="403.00" y2="88.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="93.70" x2="403.00" y2="93.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="98.60" x2="403.00" y2="98.60" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="103.50" x2="403.00" y2="103.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="108.40" x2="403.00" y2="108.40" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="113.30" x2="403.00" y2="113.30" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="118.20" x2="403.00" y2="118.20" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="123.10" x2="403.00" y2="123.10" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="128.00" x2="403.00" y2="128.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="132.90" x2="403.00" y2="132.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="137.80" x2="403.00" y2="137.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="142.70" x2="403.00" y2="142.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="147.60" x2="403.00" y2="147.60" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="152.50" x2="403.00" y2="152.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="157.40" x2="403.00" y2="157.40" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="162.30" x2="403.00" y2="162.30" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="167.20" x2="403.00" y2="167.20" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="172.10" x2="403.00" y2="172.10" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="177.00" x2="403.00" y2="177.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="181.90" x2="403.00" y2="181.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="186.80" x2="403.00" y2="186.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="191.70" x2="403.00" y2="191.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="196.60" x2="403.00" y2="196.60" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="201.50" x2="403.00" y2="201.50" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="206.40" x2="403.00" y2="206.40" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="211.30" x2="403.00" y2="211.30" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="216.20" x2="403.00" y2="216.20" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="221.10" x2="403.00" y2="221.10" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="226.00" x2="403.00" y2="226.00" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="230.90" x2="403.00" y2="230.90" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="235.80" x2="403.00" y2="235.80" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<line x1="245.00" y1="240.70" x2="403.00" y2="240.70" stroke="#000" stroke-width="0.18" stroke-linecap="round"/>
+<text x="10.00" y="252.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="3.20">Итого масса сборки: 8.32 кг (сумма масс 1 шт × количество).</text>
+<text x="10.00" y="258.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="3.20">Материалы: сталь S235/S355, фанера 10/12 мм, PLA; крепёж по ГОСТ/ISO.</text>
+<text x="10.00" y="264.00" text-anchor="start" fill="#000" font-family="DejaVu Sans" font-size="3.20">Массы расчётные (по объёму STEP и плотности); дрель учтена условно.</text>
+<text x="415.00" y="290.00" text-anchor="end" fill="#000" font-family="DejaVu Sans" font-size="3.20">Лист 2/2 · A3 · 420×297</text>
+</svg>

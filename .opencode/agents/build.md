@@ -5,6 +5,6 @@ temperature: 0.1
 tools:
   write: true 
   edit: true
-  bash: false 
+  bash: true 
 ---
 
