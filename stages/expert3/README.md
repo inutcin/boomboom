@@ -13,7 +13,7 @@
 
 - Отчёт: [Report.md](./Report.md)
 - Вопросы и допущения: [Interview.md](./Interview.md)
-- Подбор пружины для 5/10/15 Гц × 3/5/10 мм: [optimum.md](./optimum.md)
+- Подбор пружины для 5/10/15 Гц × 3/5/10 мм: [optimum.md](./optimum.md) (размах) и [optim-pick-pick.md](./optim-pick-pick.md) (нуль-пик)
 - Реестр: [findings.csv](./findings.csv) — **2 критичных, 3 важных,
   1 пожелание**
 - Числовые проверки: [cad/calc.csv](./cad/calc.csv) — 36 строк: 11 OK,
