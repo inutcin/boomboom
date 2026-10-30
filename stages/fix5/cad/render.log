@@ -1,0 +1,595 @@
+Color management: using fallback mode for management
+Color management: Error could not find role data role.
+Blender 3.0.1
+Color management: scene view "Filmic" not found, setting default "Standard".
+Color management: scene view "Filmic" not found, setting default "Standard".
+Fra:1 Mem:42.99M (Peak 43.66M) | Time:00:00.11 | Syncing frame
+Fra:1 Mem:43.74M (Peak 43.76M) | Time:00:00.12 | Syncing table
+Fra:1 Mem:44.00M (Peak 44.01M) | Time:00:00.12 | Syncing overlay
+Fra:1 Mem:44.11M (Peak 44.21M) | Time:00:00.12 | Syncing retainer
+Fra:1 Mem:44.19M (Peak 44.32M) | Time:00:00.12 | Syncing cam
+Fra:1 Mem:44.42M (Peak 44.43M) | Time:00:00.12 | Syncing steel
+Fra:1 Mem:48.33M (Peak 48.51M) | Time:00:00.12 | Syncing bearing
+Fra:1 Mem:48.56M (Peak 48.57M) | Time:00:00.12 | Syncing angles
+Fra:1 Mem:49.09M (Peak 49.11M) | Time:00:00.12 | Syncing shield
+Fra:1 Mem:49.45M (Peak 49.62M) | Time:00:00.13 | Syncing rubber
+Fra:1 Mem:49.52M (Peak 49.66M) | Time:00:00.13 | Syncing drill_body
+Fra:1 Mem:49.53M (Peak 49.73M) | Time:00:00.13 | Syncing drill_chuck
+Fra:1 Mem:49.55M (Peak 49.74M) | Time:00:00.13 | Syncing drill_handle
+Fra:1 Mem:49.55M (Peak 49.74M) | Time:00:00.13 | Syncing drill_side_handle
+Fra:1 Mem:49.57M (Peak 49.76M) | Time:00:00.13 | Syncing Plane
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.001
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.002
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.003
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.004
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.005
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.006
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.007
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing Empty.008
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing key
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing fill
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing rim
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing iso
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing iso_rear
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing left
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing top
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing front
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing shield.001
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing mech
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing cam.001
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing washer
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing ring
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing pad
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing down
+Fra:1 Mem:49.57M (Peak 49.78M) | Time:00:00.13 | Syncing podstol
+Fra:1 Mem:48.48M (Peak 49.78M) | Time:00:00.13 | Rendering 1 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.34 | Rendering 26 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.48 | Rendering 51 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.55 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_iso.png'
+ Time: 00:00.67 (Saving: 00:00.10)
+
+Import finished in 0.0101 sec.
+Import finished in 0.0068 sec.
+Import finished in 0.0030 sec.
+Import finished in 0.0021 sec.
+Import finished in 0.0059 sec.
+Import finished in 0.1315 sec.
+Import finished in 0.0068 sec.
+Import finished in 0.0159 sec.
+Import finished in 0.0043 sec.
+Import finished in 0.0018 sec.
+rendered render_iso
+Fra:1 Mem:43.55M (Peak 43.72M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.93M (Peak 43.94M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:44.19M (Peak 44.20M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:44.30M (Peak 44.40M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:44.37M (Peak 44.51M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.61M (Peak 44.62M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.52M (Peak 48.70M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.75M (Peak 48.76M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:49.28M (Peak 49.30M) | Time:00:00.00 | Syncing shield
+Fra:1 Mem:49.45M (Peak 49.49M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:49.52M (Peak 49.66M) | Time:00:00.00 | Syncing drill_body
+Fra:1 Mem:49.53M (Peak 49.73M) | Time:00:00.00 | Syncing drill_chuck
+Fra:1 Mem:49.55M (Peak 49.74M) | Time:00:00.00 | Syncing drill_handle
+Fra:1 Mem:49.56M (Peak 49.74M) | Time:00:00.00 | Syncing drill_side_handle
+Fra:1 Mem:49.57M (Peak 49.77M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:48.49M (Peak 49.78M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.15 | Rendering 26 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.29 | Rendering 51 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.37 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_iso_rear.png'
+ Time: 00:00.48 (Saving: 00:00.10)
+
+rendered render_iso_rear
+Fra:1 Mem:43.55M (Peak 43.72M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.93M (Peak 43.94M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:44.19M (Peak 44.20M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:44.30M (Peak 44.40M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:44.37M (Peak 44.51M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.61M (Peak 44.62M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.52M (Peak 48.70M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.75M (Peak 48.76M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:49.28M (Peak 49.30M) | Time:00:00.00 | Syncing shield
+Fra:1 Mem:49.45M (Peak 49.49M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:49.52M (Peak 49.66M) | Time:00:00.00 | Syncing drill_body
+Fra:1 Mem:49.53M (Peak 49.73M) | Time:00:00.00 | Syncing drill_chuck
+Fra:1 Mem:49.55M (Peak 49.74M) | Time:00:00.00 | Syncing drill_handle
+Fra:1 Mem:49.56M (Peak 49.74M) | Time:00:00.00 | Syncing drill_side_handle
+Fra:1 Mem:49.57M (Peak 49.77M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:48.49M (Peak 49.78M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.14 | Rendering 26 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.27 | Rendering 51 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.34 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_left.png'
+ Time: 00:00.46 (Saving: 00:00.09)
+
+rendered render_left
+Fra:1 Mem:43.55M (Peak 43.72M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.93M (Peak 43.94M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:44.19M (Peak 44.20M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:44.30M (Peak 44.40M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:44.37M (Peak 44.51M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.61M (Peak 44.62M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.52M (Peak 48.70M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.75M (Peak 48.76M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:49.28M (Peak 49.30M) | Time:00:00.00 | Syncing shield
+Fra:1 Mem:49.45M (Peak 49.49M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:49.52M (Peak 49.66M) | Time:00:00.00 | Syncing drill_body
+Fra:1 Mem:49.53M (Peak 49.73M) | Time:00:00.00 | Syncing drill_chuck
+Fra:1 Mem:49.55M (Peak 49.74M) | Time:00:00.00 | Syncing drill_handle
+Fra:1 Mem:49.56M (Peak 49.74M) | Time:00:00.00 | Syncing drill_side_handle
+Fra:1 Mem:49.57M (Peak 49.77M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:48.49M (Peak 49.78M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.18 | Rendering 26 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.34 | Rendering 51 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.43 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_top.png'
+ Time: 00:00.56 (Saving: 00:00.09)
+
+rendered render_top
+Fra:1 Mem:43.55M (Peak 43.72M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.93M (Peak 43.94M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:44.19M (Peak 44.20M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:44.30M (Peak 44.40M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:44.37M (Peak 44.51M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.61M (Peak 44.62M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.52M (Peak 48.70M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.75M (Peak 48.76M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:49.28M (Peak 49.30M) | Time:00:00.00 | Syncing shield
+Fra:1 Mem:49.45M (Peak 49.49M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:49.52M (Peak 49.66M) | Time:00:00.00 | Syncing drill_body
+Fra:1 Mem:49.53M (Peak 49.73M) | Time:00:00.00 | Syncing drill_chuck
+Fra:1 Mem:49.55M (Peak 49.74M) | Time:00:00.00 | Syncing drill_handle
+Fra:1 Mem:49.56M (Peak 49.74M) | Time:00:00.00 | Syncing drill_side_handle
+Fra:1 Mem:49.57M (Peak 49.77M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:48.49M (Peak 49.78M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.13 | Rendering 26 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.25 | Rendering 51 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.31 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_front.png'
+ Time: 00:00.46 (Saving: 00:00.13)
+
+rendered render_front
+Fra:1 Mem:43.55M (Peak 43.72M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.93M (Peak 43.94M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:44.19M (Peak 44.20M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:44.30M (Peak 44.40M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:44.37M (Peak 44.51M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.61M (Peak 44.62M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.52M (Peak 48.70M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.75M (Peak 48.76M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:49.28M (Peak 49.30M) | Time:00:00.00 | Syncing shield
+Fra:1 Mem:49.45M (Peak 49.49M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:49.52M (Peak 49.66M) | Time:00:00.00 | Syncing drill_body
+Fra:1 Mem:49.53M (Peak 49.73M) | Time:00:00.00 | Syncing drill_chuck
+Fra:1 Mem:49.55M (Peak 49.74M) | Time:00:00.00 | Syncing drill_handle
+Fra:1 Mem:49.56M (Peak 49.74M) | Time:00:00.00 | Syncing drill_side_handle
+Fra:1 Mem:49.57M (Peak 49.77M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:49.58M (Peak 49.78M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:48.49M (Peak 49.78M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.13 | Rendering 26 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.25 | Rendering 51 / 64 samples
+Fra:1 Mem:43.62M (Peak 49.78M) | Time:00:00.32 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_shield.png'
+ Time: 00:00.44 (Saving: 00:00.10)
+
+rendered render_shield
+Fra:1 Mem:42.25M (Peak 42.42M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:42.32M (Peak 42.46M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:42.55M (Peak 42.56M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:46.47M (Peak 46.64M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:46.70M (Peak 46.70M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:47.22M (Peak 47.25M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:47.23M (Peak 47.43M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:46.33M (Peak 47.43M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:42.28M (Peak 47.43M) | Time:00:00.11 | Rendering 26 / 64 samples
+Fra:1 Mem:42.28M (Peak 47.43M) | Time:00:00.22 | Rendering 51 / 64 samples
+Fra:1 Mem:42.28M (Peak 47.43M) | Time:00:00.28 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_mechanism.png'
+ Time: 00:00.41 (Saving: 00:00.11)
+
+rendered render_mechanism
+Fra:1 Mem:41.64M (Peak 41.81M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:41.87M (Peak 41.88M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:45.78M (Peak 45.96M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:46.01M (Peak 46.02M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:45.22M (Peak 46.22M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:41.66M (Peak 46.22M) | Time:00:00.12 | Rendering 26 / 64 samples
+Fra:1 Mem:41.66M (Peak 46.22M) | Time:00:00.24 | Rendering 51 / 64 samples
+Fra:1 Mem:41.66M (Peak 46.22M) | Time:00:00.29 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_cam.png'
+ Time: 00:00.40 (Saving: 00:00.09)
+
+rendered render_cam
+Fra:1 Mem:41.64M (Peak 41.81M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:41.87M (Peak 41.88M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:45.78M (Peak 45.96M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:46.01M (Peak 46.02M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:46.02M (Peak 46.22M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:45.22M (Peak 46.22M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:41.66M (Peak 46.22M) | Time:00:00.12 | Rendering 26 / 64 samples
+Fra:1 Mem:41.66M (Peak 46.22M) | Time:00:00.23 | Rendering 51 / 64 samples
+Fra:1 Mem:41.66M (Peak 46.22M) | Time:00:00.30 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_washer.png'
+ Time: 00:00.42 (Saving: 00:00.11)
+
+rendered render_washer
+Fra:1 Mem:43.14M (Peak 43.31M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.52M (Peak 43.53M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:43.78M (Peak 43.79M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:43.89M (Peak 43.99M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:43.96M (Peak 44.10M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.20M (Peak 44.21M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.11M (Peak 48.29M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.34M (Peak 48.35M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:48.87M (Peak 48.89M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:48.93M (Peak 49.08M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:47.89M (Peak 49.14M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.13 | Rendering 26 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.26 | Rendering 51 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.32 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_ring.png'
+ Time: 00:00.44 (Saving: 00:00.09)
+
+rendered render_ring
+Fra:1 Mem:43.14M (Peak 43.31M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.52M (Peak 43.53M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:43.78M (Peak 43.79M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:43.89M (Peak 43.99M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:43.96M (Peak 44.10M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.20M (Peak 44.21M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.11M (Peak 48.29M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.34M (Peak 48.35M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:48.87M (Peak 48.89M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:48.93M (Peak 49.08M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:47.89M (Peak 49.14M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.15 | Rendering 26 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.29 | Rendering 51 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.36 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_pad.png'
+ Time: 00:00.47 (Saving: 00:00.09)
+
+rendered render_pad
+Fra:1 Mem:43.14M (Peak 43.31M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.52M (Peak 43.53M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:43.78M (Peak 43.79M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:43.89M (Peak 43.99M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:43.96M (Peak 44.10M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.20M (Peak 44.21M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.11M (Peak 48.29M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.34M (Peak 48.35M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:48.87M (Peak 48.89M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:48.93M (Peak 49.08M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:48.94M (Peak 49.14M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:47.89M (Peak 49.14M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.14 | Rendering 26 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.27 | Rendering 51 / 64 samples
+Fra:1 Mem:43.19M (Peak 49.14M) | Time:00:00.34 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_retainer_down.png'
+ Time: 00:00.45 (Saving: 00:00.09)
+
+rendered render_retainer_down
+Fra:1 Mem:43.34M (Peak 43.52M) | Time:00:00.00 | Syncing frame
+Fra:1 Mem:43.73M (Peak 43.74M) | Time:00:00.00 | Syncing table
+Fra:1 Mem:43.99M (Peak 43.99M) | Time:00:00.00 | Syncing overlay
+Fra:1 Mem:44.10M (Peak 44.20M) | Time:00:00.00 | Syncing retainer
+Fra:1 Mem:44.17M (Peak 44.31M) | Time:00:00.00 | Syncing cam
+Fra:1 Mem:44.41M (Peak 44.41M) | Time:00:00.00 | Syncing steel
+Fra:1 Mem:48.32M (Peak 48.49M) | Time:00:00.00 | Syncing bearing
+Fra:1 Mem:48.55M (Peak 48.55M) | Time:00:00.00 | Syncing angles
+Fra:1 Mem:49.08M (Peak 49.10M) | Time:00:00.00 | Syncing rubber
+Fra:1 Mem:49.14M (Peak 49.29M) | Time:00:00.00 | Syncing drill_body
+Fra:1 Mem:49.16M (Peak 49.35M) | Time:00:00.00 | Syncing drill_chuck
+Fra:1 Mem:49.17M (Peak 49.37M) | Time:00:00.00 | Syncing drill_handle
+Fra:1 Mem:49.18M (Peak 49.37M) | Time:00:00.00 | Syncing drill_side_handle
+Fra:1 Mem:49.20M (Peak 49.39M) | Time:00:00.00 | Syncing Plane
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.001
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.002
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.003
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.004
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.005
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.006
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.007
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing Empty.008
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing key
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing fill
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing rim
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing iso
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing iso_rear
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing left
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing top
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing front
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing shield.001
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing mech
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing cam.001
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing washer
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing ring
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing pad
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing down
+Fra:1 Mem:49.20M (Peak 49.41M) | Time:00:00.00 | Syncing podstol
+Fra:1 Mem:48.14M (Peak 49.41M) | Time:00:00.00 | Rendering 1 / 64 samples
+Fra:1 Mem:43.41M (Peak 49.41M) | Time:00:00.14 | Rendering 26 / 64 samples
+Fra:1 Mem:43.41M (Peak 49.41M) | Time:00:00.27 | Rendering 51 / 64 samples
+Fra:1 Mem:43.41M (Peak 49.41M) | Time:00:00.35 | Rendering 64 / 64 samples
+Saved: '/home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix5/pic/render_podstol.png'
+ Time: 00:00.46 (Saving: 00:00.09)
+
+rendered render_podstol
+
+Blender quit
+DONE
