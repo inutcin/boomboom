@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297mm" height="161mm" viewBox="0 0 1400 760">
+<rect width="1400" height="760" fill="#ffffff"/>
+<text x="700.0" y="40.0" font-family="DejaVu Sans" font-size="26" fill="#111" text-anchor="middle" font-weight="bold">Почему печатное отверстие Ø10,5 не задаёт параллельность</text>
+<text x="700.0" y="72.0" font-family="DejaVu Sans" font-size="17" fill="#c0392b" text-anchor="middle" font-weight="normal">Зазор 0,5 мм на длине 20 мм → перекос 1,43°; на базе 110 мм — 2,75 мм</text>
+<rect x="200.0" y="200.0" width="1000.0" height="120.0" rx="0" fill="#d5dbdb" stroke="#555" stroke-width="2"/>
+<text x="700.0" y="190.0" font-family="DejaVu Sans" font-size="17" fill="#333" text-anchor="middle" font-weight="normal">печатная поперечина 20×20, отверстие Ø10,5</text>
+<line x1="700.0" y1="180.0" x2="700.0" y2="340.0" stroke="#999" stroke-width="1" stroke-dasharray="6 4"/>
+<line x1="680.0" y1="200.0" x2="660.0" y2="320.0" stroke="#c0392b" stroke-width="6"/>
+<line x1="720.0" y1="200.0" x2="740.0" y2="320.0" stroke="#c0392b" stroke-width="6"/>
+<circle cx="700.0" cy="260.0" r="18.0" fill="none" stroke="#2471a3" stroke-width="2"/>
+<text x="730.0" y="242.0" font-family="DejaVu Sans" font-size="15" fill="#2471a3" text-anchor="start" font-weight="normal">вал Ø10</text>
+<text x="500.0" y="350.0" font-family="DejaVu Sans" font-size="16" fill="#555" text-anchor="start" font-weight="normal">отверстие Ø10,5 (зазор 0,5)</text>
+<text x="820.0" y="350.0" font-family="DejaVu Sans" font-size="16" fill="#c0392b" text-anchor="start" font-weight="normal">вал может наклоняться в пределах зазора</text>
+<line x1="660.0" y1="380.0" x2="740.0" y2="380.0" stroke="#333" stroke-width="1"/>
+<text x="700.0" y="405.0" font-family="DejaVu Sans" font-size="15" fill="#333" text-anchor="middle" font-weight="normal">0,5 мм</text>
+<line x1="200.0" y1="450.0" x2="1200.0" y2="450.0" stroke="#333" stroke-width="1"/>
+<text x="700.0" y="480.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">110 мм между верхней и средней поперечинами</text>
+<line x1="200.0" y1="450.0" x2="200.0" y2="470.0" stroke="#333" stroke-width="1"/>
+<line x1="1200.0" y1="450.0" x2="1200.0" y2="470.0" stroke="#333" stroke-width="1"/>
+<text x="200.0" y="520.0" font-family="DejaVu Sans" font-size="17" fill="#c0392b" text-anchor="start" font-weight="normal">LMK10UU требует параллельности ~0,02…0,05 мм; нужны регулируемые опоры/расточка/кондуктор.</text>
+<text x="200.0" y="560.0" font-family="DejaVu Sans" font-size="16" fill="#444" text-anchor="start" font-weight="normal">C4: текущая конструкция не имеет юстировки; фиксация — кольцевые ограничители, которые не задают угол.</text>
+</svg>
