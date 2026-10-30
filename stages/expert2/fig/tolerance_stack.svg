@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297mm" height="169mm" viewBox="0 0 1400 800">
+<rect width="1400" height="800" fill="#ffffff"/>
+<text x="700.0" y="40.0" font-family="DejaVu Sans" font-size="28" fill="#111" text-anchor="middle" font-weight="bold">Осевые стеки fix6: 6200 и кулачок</text>
+<text x="700.0" y="70.0" font-family="DejaVu Sans" font-size="16" fill="#444" text-anchor="middle" font-weight="normal">6200: 4 конуса + 4 nyloc; кулачок: шестигранник 22 мм, гайка 8 мм, осевая свобода 14 мм</text>
+<text x="80.0" y="138.0" font-family="DejaVu Sans" font-size="18" fill="#111" text-anchor="start" font-weight="bold">6200 №2 (X=150): гайка | конус | 6200 | конус | гайка</text>
+<rect x="256.0" y="150.0" width="224.0" height="56.0" rx="0" fill="#2471a3" stroke="#111" stroke-width="1"/>
+<text x="-3304.0" y="184.0" font-family="DejaVu Sans" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">гайка</text>
+<text x="-3304.0" y="224.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">132</text>
+<text x="-3304.0" y="240.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">140</text>
+<rect x="480.0" y="150.0" width="154.0" height="56.0" rx="0" fill="#b9770e" stroke="#111" stroke-width="1"/>
+<text x="-3297.2" y="184.0" font-family="DejaVu Sans" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">конус</text>
+<text x="-3297.2" y="224.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">140</text>
+<text x="-3297.2" y="240.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">145.5</text>
+<rect x="634.0" y="150.0" width="252.0" height="56.0" rx="0" fill="#1e7a3c" stroke="#111" stroke-width="1"/>
+<text x="-3290.0" y="184.0" font-family="DejaVu Sans" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">6200</text>
+<text x="-3290.0" y="224.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">145.5</text>
+<text x="-3290.0" y="240.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">154.5</text>
+<rect x="886.0" y="150.0" width="154.0" height="56.0" rx="0" fill="#b9770e" stroke="#111" stroke-width="1"/>
+<text x="-3282.8" y="184.0" font-family="DejaVu Sans" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">конус</text>
+<text x="-3282.8" y="224.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">154.5</text>
+<text x="-3282.8" y="240.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">160</text>
+<rect x="1040.0" y="150.0" width="224.0" height="56.0" rx="0" fill="#2471a3" stroke="#111" stroke-width="1"/>
+<text x="-3276.0" y="184.0" font-family="DejaVu Sans" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">гайка</text>
+<text x="-3276.0" y="224.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">160</text>
+<text x="-3276.0" y="240.0" font-family="DejaVu Sans" font-size="11" fill="#333" text-anchor="middle" font-weight="normal">168</text>
+<text x="100.0" y="184.0" font-family="DejaVu Sans" font-size="14" fill="#333" text-anchor="end" font-weight="bold">X, мм</text>
+<text x="80.0" y="270.0" font-family="DejaVu Sans" font-size="16" fill="#1e7a3c" text-anchor="start" font-weight="normal">Стек симметричен; конус—6200 касание, гайка—6200 5,5 мм; зазор гайки до балки/поперечины 0,19 мм. fix6 принят.</text>
+<text x="80.0" y="348.0" font-family="DejaVu Sans" font-size="18" fill="#111" text-anchor="start" font-weight="bold">Кулачок (X=45,5…104,5): контргайка | гайка | шайба | буртик | диск | шайба | гайка | контргайка</text>
+<rect x="209.4" y="360.0" width="150.6" height="56.0" rx="0" fill="#2471a3" stroke="#111" stroke-width="1"/>
+<text x="-597.6" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">контр.</text>
+<rect x="360.0" y="360.0" width="150.6" height="56.0" rx="0" fill="#2471a3" stroke="#111" stroke-width="1"/>
+<text x="-589.6" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">гайка</text>
+<rect x="510.6" y="360.0" width="47.1" height="56.0" rx="0" fill="#b9770e" stroke="#111" stroke-width="1"/>
+<text x="-584.3" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">шайба</text>
+<rect x="557.6" y="360.0" width="188.2" height="56.0" rx="0" fill="#8e44ad" stroke="#111" stroke-width="1"/>
+<text x="-578.1" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">буртик</text>
+<rect x="745.9" y="360.0" width="225.9" height="56.0" rx="0" fill="#e67e22" stroke="#111" stroke-width="1"/>
+<text x="-567.1" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">диск</text>
+<rect x="971.8" y="360.0" width="47.1" height="56.0" rx="0" fill="#b9770e" stroke="#111" stroke-width="1"/>
+<text x="-559.8" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">шайба</text>
+<rect x="1018.8" y="360.0" width="150.6" height="56.0" rx="0" fill="#2471a3" stroke="#111" stroke-width="1"/>
+<text x="-554.6" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">гайка</text>
+<rect x="1169.4" y="360.0" width="150.6" height="56.0" rx="0" fill="#2471a3" stroke="#111" stroke-width="1"/>
+<text x="-546.6" y="394.0" font-family="DejaVu Sans" font-size="12" fill="#fff" text-anchor="middle" font-weight="bold">контр.</text>
+<text x="100.0" y="394.0" font-family="DejaVu Sans" font-size="14" fill="#333" text-anchor="end" font-weight="bold">X, мм</text>
+<rect x="745.9" y="422.0" width="150.6" height="18.0" rx="0" fill="#c0392b" stroke="#c0392b" stroke-width="0"/>
+<text x="745.9" y="460.0" font-family="DejaVu Sans" font-size="13" fill="#c0392b" text-anchor="start" font-weight="normal">приваренная гайка 74…82</text>
+<text x="1040.0" y="460.0" font-family="DejaVu Sans" font-size="13" fill="#333" text-anchor="start" font-weight="normal">шестигранник 22 мм</text>
+<text x="80.0" y="500.0" font-family="DejaVu Sans" font-size="16" fill="#c0392b" text-anchor="start" font-weight="normal">Осевая свобода кулачка без зажима: 22 − 8 = 14 мм; положительного буртика/втулки нет. C3: зажим только трением через PLA-буртик 64…74.</text>
+<rect x="80.0" y="610.0" width="580.0" height="120.0" rx="0" fill="#fbfbfb" stroke="#999" stroke-width="1"/>
+<text x="95.0" y="638.0" font-family="DejaVu Sans" font-size="16" fill="#111" text-anchor="start" font-weight="bold">Направляющая в Ø10,5×20: зазор 0,5 мм</text>
+<text x="95.0" y="666.0" font-family="DejaVu Sans" font-size="15" fill="#c0392b" text-anchor="start" font-weight="normal">перекос 1.43°, на 110 мм — 2.75 мм</text>
+<text x="95.0" y="694.0" font-family="DejaVu Sans" font-size="15" fill="#c0392b" text-anchor="start" font-weight="normal">LMK требует 0,02…0,05 мм; юстировки нет (C4).</text>
+<text x="700.0" y="638.0" font-family="DejaVu Sans" font-size="16" fill="#111" text-anchor="start" font-weight="bold">Тепловое расширение (ΔT=20 К):</text>
+<text x="700.0" y="666.0" font-family="DejaVu Sans" font-size="15" fill="#333" text-anchor="start" font-weight="normal">стальной вал 225 мм — 0,054 мм;</text>
+<text x="700.0" y="690.0" font-family="DejaVu Sans" font-size="15" fill="#333" text-anchor="start" font-weight="normal">PETG-рама 140 мм — 0,196 мм;</text>
+<text x="700.0" y="714.0" font-family="DejaVu Sans" font-size="14" fill="#c0392b" text-anchor="start" font-weight="normal">разница ≈0,14 мм — в пределах 0,2 мм, но контроль нужен (I22).</text>
+</svg>

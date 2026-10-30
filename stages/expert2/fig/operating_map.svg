@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297mm" height="191mm" viewBox="0 0 1400 900">
+<rect width="1400" height="900" fill="#ffffff"/>
+<text x="700.0" y="44.0" font-family="DejaVu Sans" font-size="28" fill="#111" text-anchor="middle" font-weight="bold">Карта режимов после второй экспертизы: отрыв шарика</text>
+<text x="700.0" y="74.0" font-family="DejaVu Sans" font-size="17" fill="#444" text-anchor="middle" font-weight="normal">ход = размах (peak-to-peak); a_max = (s/2)·(2πf)²; 2 лепестка: 5…15 Гц стола = 150…450 об/мин вала</text>
+<rect x="120.0" y="170.0" width="1080.0" height="540.0" rx="0" fill="#fbfbfb" stroke="#999" stroke-width="1"/>
+<line x1="120.0" y1="170.0" x2="120.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="120.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">5</text>
+<line x1="228.0" y1="170.0" x2="228.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="228.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">6</text>
+<line x1="336.0" y1="170.0" x2="336.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="336.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">7</text>
+<line x1="444.0" y1="170.0" x2="444.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="444.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">8</text>
+<line x1="552.0" y1="170.0" x2="552.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="552.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">9</text>
+<line x1="660.0" y1="170.0" x2="660.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="660.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">10</text>
+<line x1="768.0" y1="170.0" x2="768.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="768.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">11</text>
+<line x1="876.0" y1="170.0" x2="876.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="876.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">12</text>
+<line x1="984.0" y1="170.0" x2="984.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="984.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">13</text>
+<line x1="1092.0" y1="170.0" x2="1092.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="1092.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">14</text>
+<line x1="1200.0" y1="170.0" x2="1200.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="1200.0" y="734.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="middle" font-weight="normal">15</text>
+<line x1="120.0" y1="710.0" x2="1200.0" y2="710.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="715.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">3</text>
+<line x1="120.0" y1="650.0" x2="1200.0" y2="650.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="655.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">4</text>
+<line x1="120.0" y1="590.0" x2="1200.0" y2="590.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="595.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">5</text>
+<line x1="120.0" y1="530.0" x2="1200.0" y2="530.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="535.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">6</text>
+<line x1="120.0" y1="470.0" x2="1200.0" y2="470.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="475.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">7</text>
+<line x1="120.0" y1="410.0" x2="1200.0" y2="410.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="415.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">8</text>
+<line x1="120.0" y1="350.0" x2="1200.0" y2="350.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="355.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">9</text>
+<line x1="120.0" y1="290.0" x2="1200.0" y2="290.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="295.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">10</text>
+<line x1="120.0" y1="230.0" x2="1200.0" y2="230.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="235.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">11</text>
+<line x1="120.0" y1="170.0" x2="1200.0" y2="170.0" stroke="#ddd" stroke-width="1"/>
+<text x="110.0" y="175.0" font-family="DejaVu Sans" font-size="16" fill="#333" text-anchor="end" font-weight="normal">12</text>
+<text x="660.0" y="762.0" font-family="DejaVu Sans" font-size="19" fill="#111" text-anchor="middle" font-weight="bold">Частота стола, Гц</text>
+<text x="62.0" y="440.0" font-family="DejaVu Sans" font-size="19" fill="#111" text-anchor="middle" font-weight="bold" transform="rotate(-90 62.0 440.0)">Размах (ход), мм</text>
+<polygon points="120.0,170.0 276.6,173.5 282.0,184.5 287.4,195.2 292.8,205.7 298.2,215.9 303.6,226.0 309.0,235.8 314.4,245.3 319.8,254.7 325.2,263.9 330.6,272.9 336.0,281.7 341.4,290.3 346.8,298.7 352.2,306.9 357.6,315.0 363.0,322.9 368.4,330.6 373.8,338.2 379.2,345.6 384.6,352.9 390.0,360.1 395.4,367.1 400.8,373.9 406.2,380.6 411.6,387.2 417.0,393.7 422.4,400.0 427.8,406.3 433.2,412.4 438.6,418.4 444.0,424.2 449.4,430.0 454.8,435.7 460.2,441.2 465.6,446.7 471.0,452.0 476.4,457.3 481.8,462.5 487.2,467.5 492.6,472.5 498.0,477.4 503.4,482.2 508.8,487.0 514.2,491.6 519.6,496.2 525.0,500.7 530.4,505.1 535.8,509.4 541.2,513.7 546.6,517.9 552.0,522.0 557.4,526.0 562.8,530.0 568.2,534.0 573.6,537.8 579.0,541.6 584.4,545.4 589.8,549.0 595.2,552.6 600.6,556.2 606.0,559.7 611.4,563.2 616.8,566.6 622.2,569.9 627.6,573.2 633.0,576.4 638.4,579.6 643.8,582.8 649.2,585.9 654.6,588.9 660.0,591.9 665.4,594.9 670.8,597.8 676.2,600.7 681.6,603.5 687.0,606.3 692.4,609.0 697.8,611.7 703.2,614.4 708.6,617.0 714.0,619.6 719.4,622.2 724.8,624.7 730.2,627.2 735.6,629.6 741.0,632.1 746.4,634.4 751.8,636.8 757.2,639.1 762.6,641.4 768.0,643.6 773.4,645.9 778.8,648.1 784.2,650.2 789.6,652.4 795.0,654.5 800.4,656.6 805.8,658.6 811.2,660.6 816.6,662.6 822.0,664.6 827.4,666.6 832.8,668.5 838.2,670.4 843.6,672.2 849.0,674.1 854.4,675.9 859.8,677.7 865.2,679.5 870.6,681.3 876.0,683.0 881.4,684.7 886.8,686.4 892.2,688.1 897.6,689.7 903.0,691.4 908.4,693.0 913.8,694.6 919.2,696.1 924.6,697.7 930.0,699.2 935.4,700.7 940.8,702.2 946.2,703.7 951.6,705.2 957.0,706.6 962.4,708.1 967.8,709.5 969.8,710.0 120.0,710.0" fill="#fdecea" stroke="none" stroke-width="1"/>
+<polyline points="282.0,184.5 292.8,205.7 303.6,226.0 314.4,245.3 325.2,263.9 336.0,281.7 346.8,298.7 357.6,315.0 368.4,330.6 379.2,345.6 390.0,360.1 400.8,373.9 411.6,387.2 422.4,400.0 433.2,412.4 444.0,424.2 454.8,435.7 465.6,446.7 476.4,457.3 487.2,467.5 498.0,477.4 508.8,487.0 519.6,496.2 530.4,505.1 541.2,513.7 552.0,522.0 562.8,530.0 573.6,537.8 584.4,545.4 595.2,552.6 606.0,559.7 616.8,566.6 627.6,573.2 638.4,579.6 649.2,585.9 660.0,591.9 670.8,597.8 681.6,603.5 692.4,609.0 703.2,614.4 714.0,619.6 724.8,624.7 735.6,629.6 746.4,634.4 757.2,639.1 768.0,643.6 778.8,648.1 789.6,652.4 800.4,656.6 811.2,660.6 822.0,664.6 832.8,668.5 843.6,672.2 854.4,675.9 865.2,679.5 876.0,683.0 886.8,686.4 897.6,689.7 908.4,693.0 919.2,696.1 930.0,699.2 940.8,702.2 951.6,705.2 962.4,708.1" fill="none" stroke="#c0392b" stroke-width="3"/>
+<text x="152.4" y="212.0" font-family="DejaVu Sans" font-size="18" fill="#c0392b" text-anchor="start" font-weight="bold">шарик не отрывается</text>
+<text x="800.4" y="668.0" font-family="DejaVu Sans" font-size="18" fill="#1e7a3c" text-anchor="start" font-weight="bold">шарик отрывается</text>
+<line x1="120.0" y1="710.0" x2="1200.0" y2="710.0" stroke="#2471a3" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="130.0" y="700.0" font-family="DejaVu Sans" font-size="17" fill="#2471a3" text-anchor="start" font-weight="bold">размах 3 мм</text>
+<circle cx="969.8" cy="710.0" r="9.0" fill="#2471a3" stroke="#111" stroke-width="2"/>
+<text x="969.8" y="740.0" font-family="DejaVu Sans" font-size="14" fill="#2471a3" text-anchor="middle" font-weight="normal">идеал 12.9</text>
+<line x1="1053.6" y1="702.0" x2="1069.6" y2="718.0" stroke="#111" stroke-width="2"/>
+<line x1="1053.6" y1="718.0" x2="1069.6" y2="702.0" stroke="#111" stroke-width="2"/>
+<text x="1061.6" y="692.0" font-family="DejaVu Sans" font-size="14" fill="#111" text-anchor="middle" font-weight="bold">факт 13.7</text>
+<line x1="120.0" y1="590.0" x2="1200.0" y2="590.0" stroke="#b9770e" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="1190.0" y="580.0" font-family="DejaVu Sans" font-size="17" fill="#b9770e" text-anchor="end" font-weight="bold">размах 5 мм</text>
+<circle cx="656.6" cy="590.0" r="9.0" fill="#b9770e" stroke="#111" stroke-width="2"/>
+<text x="656.6" y="620.0" font-family="DejaVu Sans" font-size="14" fill="#b9770e" text-anchor="middle" font-weight="normal">идеал 10.0</text>
+<line x1="746.6" y1="582.0" x2="762.6" y2="598.0" stroke="#111" stroke-width="2"/>
+<line x1="746.6" y1="598.0" x2="762.6" y2="582.0" stroke="#111" stroke-width="2"/>
+<text x="754.6" y="572.0" font-family="DejaVu Sans" font-size="14" fill="#111" text-anchor="middle" font-weight="bold">факт 10.9</text>
+<line x1="120.0" y1="290.0" x2="1200.0" y2="290.0" stroke="#6c3483" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="1190.0" y="280.0" font-family="DejaVu Sans" font-size="17" fill="#6c3483" text-anchor="end" font-weight="bold">размах 10 мм</text>
+<circle cx="341.2" cy="290.0" r="9.0" fill="#6c3483" stroke="#111" stroke-width="2"/>
+<text x="341.2" y="320.0" font-family="DejaVu Sans" font-size="14" fill="#6c3483" text-anchor="middle" font-weight="normal">идеал 7.0</text>
+<line x1="474.2" y1="282.0" x2="490.2" y2="298.0" stroke="#111" stroke-width="2"/>
+<line x1="474.2" y1="298.0" x2="490.2" y2="282.0" stroke="#111" stroke-width="2"/>
+<text x="482.2" y="272.0" font-family="DejaVu Sans" font-size="14" fill="#111" text-anchor="middle" font-weight="bold">факт 8.4</text>
+<line x1="513.1" y1="170.0" x2="513.1" y2="710.0" stroke="#7d3c98" stroke-width="2" stroke-dasharray="2 4"/>
+<text x="521.1" y="195.0" font-family="DejaVu Sans" font-size="16" fill="#7d3c98" text-anchor="start" font-weight="bold">f_соб ≈ 8.64 Гц</text>
+<text x="120.0" y="156.0" font-family="DejaVu Sans" font-size="14" fill="#666" text-anchor="middle" font-weight="normal">150</text>
+<text x="390.0" y="156.0" font-family="DejaVu Sans" font-size="14" fill="#666" text-anchor="middle" font-weight="normal">225</text>
+<text x="660.0" y="156.0" font-family="DejaVu Sans" font-size="14" fill="#666" text-anchor="middle" font-weight="normal">300</text>
+<text x="930.0" y="156.0" font-family="DejaVu Sans" font-size="14" fill="#666" text-anchor="middle" font-weight="normal">375</text>
+<text x="1200.0" y="156.0" font-family="DejaVu Sans" font-size="14" fill="#666" text-anchor="middle" font-weight="normal">450</text>
+<text x="660.0" y="132.0" font-family="DejaVu Sans" font-size="16" fill="#666" text-anchor="middle" font-weight="normal">Обороты вала, об/мин (2 лепестка)</text>
+<text x="120.0" y="802.0" font-family="DejaVu Sans" font-size="17" fill="#c0392b" text-anchor="start" font-weight="normal">Красная область — идеальный порог a_max=g. Точки — пороги; крестики — фактический 2-лепестковый профиль (C8).</text>
+<text x="120.0" y="830.0" font-family="DejaVu Sans" font-size="16" fill="#444" text-anchor="start" font-weight="normal">При 5…7 Гц шарик не отрывается ни на одном диске. Порог 3 мм — 12,9 (факт 13,7), 5 мм — 10,0 (10,9), 10 мм — 7,05 (8,35) Гц.</text>
+<text x="120.0" y="858.0" font-family="DejaVu Sans" font-size="16" fill="#444" text-anchor="start" font-weight="normal">Если «амплитуда» — нуль-пик, пороги 9,10/7,05/4,98 Гц, а диски 3/5/10 дают 1,5/2,5/5 мм и не покрывают 3…10 мм.</text>
+</svg>

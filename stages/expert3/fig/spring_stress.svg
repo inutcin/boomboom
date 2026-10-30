@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297mm" height="169mm" viewBox="0 0 1400 800">
+<rect width="1400" height="800" fill="#ffffff"/>
+<text x="700.0" y="40.0" font-family="DejaVu Sans" font-size="28" fill="#111" text-anchor="middle" font-weight="bold">Напряжение в пружине: L0=70 перегружает Ø1,0</text>
+<text x="700.0" y="70.0" font-family="DejaVu Sans" font-size="16" fill="#444" text-anchor="middle" font-weight="normal">τ = Kw·8FD/(πd³); C=11; Kw=1,131; допустимое для усталости ориентировочно 500…700 МПа</text>
+<rect x="100.0" y="130.0" width="700.0" height="520.0" rx="0" fill="#fbfbfb" stroke="#999" stroke-width="1"/>
+<rect x="140.0" y="476.1" width="52.0" height="133.9" rx="0" fill="#2471a3" stroke="#2471a3" stroke-width="0"/>
+<text x="166.0" y="470.1" font-family="DejaVu Sans" font-size="13" fill="#111" text-anchor="middle" font-weight="normal">407</text>
+<text x="166.0" y="640.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">L0=55</text>
+<text x="166.0" y="655.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">верх</text>
+<rect x="230.0" y="546.6" width="52.0" height="63.4" rx="0" fill="#2471a3" stroke="#2471a3" stroke-width="0"/>
+<text x="256.0" y="540.6" font-family="DejaVu Sans" font-size="13" fill="#111" text-anchor="middle" font-weight="normal">193</text>
+<text x="256.0" y="640.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">L0=55</text>
+<text x="256.0" y="655.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">низ</text>
+<rect x="320.0" y="370.4" width="52.0" height="239.6" rx="0" fill="#6c3483" stroke="#6c3483" stroke-width="0"/>
+<text x="346.0" y="364.4" font-family="DejaVu Sans" font-size="13" fill="#111" text-anchor="middle" font-weight="normal">729</text>
+<text x="346.0" y="640.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">L0=70</text>
+<text x="346.0" y="655.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">верх</text>
+<rect x="410.0" y="440.9" width="52.0" height="169.1" rx="0" fill="#6c3483" stroke="#6c3483" stroke-width="0"/>
+<text x="436.0" y="434.9" font-family="DejaVu Sans" font-size="13" fill="#111" text-anchor="middle" font-weight="normal">515</text>
+<text x="436.0" y="640.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">L0=70</text>
+<text x="436.0" y="655.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">низ</text>
+<rect x="500.0" y="314.9" width="52.0" height="295.1" rx="0" fill="#c0392b" stroke="#c0392b" stroke-width="0"/>
+<text x="526.0" y="308.9" font-family="DejaVu Sans" font-size="13" fill="#111" text-anchor="middle" font-weight="normal">898</text>
+<text x="526.0" y="640.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">L0=78</text>
+<text x="526.0" y="655.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">верх</text>
+<rect x="590.0" y="401.0" width="52.0" height="209.0" rx="0" fill="#b9770e" stroke="#b9770e" stroke-width="0"/>
+<text x="616.0" y="395.0" font-family="DejaVu Sans" font-size="13" fill="#111" text-anchor="middle" font-weight="normal">636</text>
+<text x="616.0" y="640.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">8×0,9</text>
+<text x="616.0" y="655.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">верх</text>
+<rect x="680.0" y="208.3" width="52.0" height="401.7" rx="0" fill="#7f8c8d" stroke="#7f8c8d" stroke-width="0"/>
+<text x="706.0" y="202.3" font-family="DejaVu Sans" font-size="13" fill="#111" text-anchor="middle" font-weight="normal">1222</text>
+<text x="706.0" y="640.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">твёрдое</text>
+<text x="706.0" y="655.0" font-family="DejaVu Sans" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">L0=70</text>
+<line x1="120.0" y1="445.7" x2="780.0" y2="445.7" stroke="#1e7a3c" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="775.0" y="439.7" font-family="DejaVu Sans" font-size="13" fill="#1e7a3c" text-anchor="end" font-weight="bold">500 МПа</text>
+<line x1="120.0" y1="380.0" x2="780.0" y2="380.0" stroke="#b9770e" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="775.0" y="374.0" font-family="DejaVu Sans" font-size="13" fill="#b9770e" text-anchor="end" font-weight="bold">700 МПа</text>
+<text x="110.0" y="115.0" font-family="DejaVu Sans" font-size="18" fill="#111" text-anchor="start" font-weight="bold">Напряжение кручения, МПа</text>
+<rect x="850.0" y="130.0" width="480.0" height="520.0" rx="0" fill="#fbfbfb" stroke="#999" stroke-width="1"/>
+<text x="1090.0" y="115.0" font-family="DejaVu Sans" font-size="18" fill="#111" text-anchor="middle" font-weight="bold">Геометрия и сборка</text>
+<text x="870.0" y="160.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">L0 = 70 мм; L_уст = 36 мм</text>
+<text x="870.0" y="188.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">Сжатие = 34 мм (было 19)</text>
+<text x="870.0" y="216.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">Твёрдая длина = 13 мм; запас 23 мм</text>
+<text x="870.0" y="244.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">ID = 10.0 мм; вал Ø10; зазор 0</text>
+<text x="870.0" y="272.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">В модели ID = 10,2; зазор 0,2</text>
+<text x="870.0" y="300.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">Индекс C = 11.0; Wahl = 1.131</text>
+<text x="870.0" y="328.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">Масса = 2.38 г/шт.; 4 = 9.53 г</text>
+<text x="870.0" y="356.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">f_соб = 8.64 Гц; внутри 5…15</text>
+<text x="870.0" y="384.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">Преднатяг = 92.1 Н; внизу 65.0 Н</text>
+<text x="870.0" y="412.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">Сила до твёрдого = 38.6 Н/пружину</text>
+<text x="870.0" y="440.0" font-family="DejaVu Sans" font-size="14" fill="#fff" text-anchor="start" font-weight="normal"></text>
+<text x="870.0" y="468.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">Вариант 8×Ø12×0,9 L0=70:</text>
+<text x="870.0" y="496.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">k = 0.432 Н/мм; 8k = 3.46 Н/мм</text>
+<text x="870.0" y="524.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">контакт 15/10 = 85.8 Н (2.10×)</text>
+<text x="870.0" y="552.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">τ = 636 МПа (высокое; в верхней части 500…700)</text>
+<text x="870.0" y="580.0" font-family="DejaVu Sans" font-size="14" fill="#222" text-anchor="start" font-weight="normal">f_соб = 9.76 Гц</text>
+<text x="40.0" y="780.0" font-family="DejaVu Sans" font-size="15" fill="#c0392b" text-anchor="start" font-weight="normal">Вывод: L0=70 повышает контакт, но τ≈729 МПа и f_соб 8,64 Гц не позволяют принять 4×Ø12×1,0 без проверки/переделки.</text>
+</svg>
