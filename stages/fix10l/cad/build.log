@@ -1,0 +1,578 @@
+build fix10l...
+bbox BoundBox (0, 0, 0, 400, 200, 300)
+write params/spec/beam/torque/print
+checks
+export step
+FreeCAD 0.19, Libs: 0.19R
+(c) Juergen Riegel, Werner Mayer, Yorik van Havre and others 2001-2021
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+FreeCAD wouldn't be possible without FreeCAD community.
+  #####                 ####  ###   ####  
+  #                    #      # #   #   # 
+  #     ##  #### ####  #     #   #  #   # 
+  ####  # # #  # #  #  #     #####  #   # 
+  #     #   #### ####  #    #     # #   # 
+  #     #   #    #     #    #     # #   #  ##  ##  ##
+  #     #   #### ####   ### #     # ####   ##  ##  ##
+
+Recompute......
+						(2.0 %)							(4.0 %)							(6.0 %)							(8.0 %)							(10.0 %)							(12.0 %)							(14.0 %)							(16.0 %)							(18.0 %)							(20.0 %)							(22.0 %)							(25.0 %)							(27.0 %)							(29.0 %)							(31.0 %)							(33.0 %)							(35.0 %)							(37.0 %)							(39.0 %)							(41.0 %)							(43.0 %)							(45.0 %)							(47.0 %)							(50.0 %)							(52.0 %)							(54.0 %)							(56.0 %)							(58.0 %)							(60.0 %)							(62.0 %)							(64.0 %)							(66.0 %)							(68.0 %)							(70.0 %)							(72.0 %)							(75.0 %)							(77.0 %)							(79.0 %)							(81.0 %)							(83.0 %)							(85.0 %)							(87.0 %)							(89.0 %)							(91.0 %)							(93.0 %)							(95.0 %)							(97.0 %)							(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/vibrotable_assembly.step(131348 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/01_studs.step(608 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/12_beams_long.step(2488 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/13_beams_trans.step(2320 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/06_table.step(2258 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/07_overlay.step(1462 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/09_top_platform.step(986 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/10_base.step(1394 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/11_podstol.step(938 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/08_spring_pads.step(2024 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/15_springs.step(4820 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/05_spring_washers.step(1476 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/16_bumpers.step(748 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/03_nuts.step(13700 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/36_jam_nuts.step(14840 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/35_nyloc_nuts.step(6860 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/03_shaft_nuts.step(2300 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/37_shaft_jams.step(2300 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/04_shaft_washers.step(740 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/04_washers.step(4752 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/17_drive_shaft.step(118 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/18_weld_nut.step(590 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/19_cam_5.step(44952 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/20_cam_washers.step(384 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/21_cam_nuts.step(1160 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/22_axle.step(118 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/23_roller.step(202 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/24_roller_nuts.step(1160 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/25_roller_washers.step(744 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/26_roller_shims.step(384 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/27_brackets.step(1832 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/28_bracket_screws.step(1524 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/29_table_screws.step(724 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/29_pad_screws.step(1076 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/38_pod_bolt.step(596 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/38_pod_bolt_nut.step(590 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/38_pod_bolt_washer.step(202 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/30_ubolts.step(3247 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/31_ubolt_hw.step(3020 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/32_drill_pads.step(656 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/33_drill.step(915 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/19_cam_3.step(44952 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/19_cam_5.step(44952 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 2                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/19_cam_10.step(44952 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/27_bracket_left.step(1064 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/27_bracket_right.step(1064 ents)  Write  Done[0m
+Recompute......
+						(100.0 %)									[32;1m
+*******************************************************************
+******        Statistics on Transfer (Write)                 ******[0m
+[32;1m
+*******************************************************************
+******        Transfer Mode = 0  I.E.  As Is       ******[0m
+[32;1m******        Transferring Shape, ShapeType = 0                      ******[0m
+[32;1m** WorkSession : Sending all data[0m
+[32;1m Step File Name : /home/r-asian/pack/Projects/Personal/github/boomboom/stages/fix10l/cad/step/35_cartridge.step(47124 ents)  Write  Done[0m
+export stl
+saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									saving......
+						(0.0 %)							(1.0 %)							(2.0 %)							(3.0 %)							(4.0 %)							(5.0 %)							(6.0 %)							(7.0 %)							(8.0 %)							(9.0 %)							(10.0 %)							(11.0 %)							(12.0 %)							(13.0 %)							(14.0 %)							(15.0 %)							(16.0 %)							(17.0 %)							(18.0 %)							(19.0 %)							(20.0 %)							(21.0 %)							(22.0 %)							(23.0 %)							(24.0 %)							(25.0 %)							(26.0 %)							(27.0 %)							(28.0 %)							(29.0 %)							(30.0 %)							(31.0 %)							(32.0 %)							(33.0 %)							(34.0 %)							(35.0 %)							(36.0 %)							(37.0 %)							(38.0 %)							(39.0 %)							(40.0 %)							(41.0 %)							(42.0 %)							(43.0 %)							(44.0 %)							(45.0 %)							(46.0 %)							(47.0 %)							(48.0 %)							(49.0 %)							(50.0 %)							(51.0 %)							(52.0 %)							(53.0 %)							(54.0 %)							(55.0 %)							(56.0 %)							(57.0 %)							(58.0 %)							(59.0 %)							(60.0 %)							(61.0 %)							(62.0 %)							(63.0 %)							(64.0 %)							(65.0 %)							(66.0 %)							(67.0 %)							(68.0 %)							(69.0 %)							(70.0 %checks: 72/75 OK, mass 6079.8 g
+  Габарит сборки X×Y×Z                                       400.0×200.0×300.0  400×200×300      OK
+  Шпильки — количество                                       6                  6                OK
+  Шпильки — положение X                                      20 / 180 / 385     по модели        OK
+  Шпильки — длины                                            4×300 + 2×220      4×300 + 2×220    OK
+  Стол — размер                                              200.0×200.0×10.0   200×200×10       OK
+  Накладка — размер                                          200.0×150.0×6.0    200×150×6        OK
+  Верхняя платформа — размер                                 200.0×200.0×10.0   200×200×10       OK
+  Вырез платформы                                            120×120            120×120          OK
+  Основание — размер                                         400.0×200.0×24.0   400×200×24       OK
+  Подстолье — размер                                         200.0×200.0×10.0   200×200×10       OK
+  Продольные балки                                           2×L400, 20×20×2    2                OK
+  Поперечные балки                                           2×L200, 20×20×2    2                OK
+  Вал привода — опоры                                        2 отверстия Ø10,2  2                OK
+  Пружины — количество / L                                   4 / 36 мм          4 / 36           OK
+  Пружины — преднатяг при L=36                               143,7 Н            —                OK
+  Пружины — сила при L=46                                    83,9 Н             —                OK
+  Подкладки пружин                                           2×200×25×5; 4×Ø12  2                OK
+  Нижний демпфер                                             4×Ø30/12×2         4                OK
+  Зазор демпфер — стол                                       11 мм              ≥10              OK
+  Кронштейн ролика                                           2 уголка 50×50×2, ширина 20 2                OK
+  Ролик — центр стола                                        X=100 / 200        100              OK
+  Ролик / ось                                                6200 + M10 L=44    Ø10              OK
+  Кулачки — переиспользование                                3/5/10; R45…50     fix9             OK
+  Кулачок 5 — объём                                          85378 мм³          85378            OK
+  Накладка — объём                                           161413 мм³         161413           OK
+  Дрель — корпус                                             Ø100 условно       —                OK
+  U-болты                                                    2×M6 R70           2                OK
+  Зазор U-болт — дрель                                       17 мм              подкладка        OK
+  Масса без дрели                                            6.08 кг            —                OK
+  Пересечения (все пары)                                     0.000 мм³ / 0 пар  <0,5 мм³         OK
+  Стол, cam_3 макс: пересечения                              0.000 мм³          <0,5 мм³         OK
+  Контакт ролик — cam_3 макс                                 0.0000 мм          0…0,05           OK
+  Кронштейн — cam_3 макс                                     0.000 мм³          <0,5 мм³         OK
+  Стол, cam_3 мин: пересечения                               0.000 мм³          <0,5 мм³         OK
+  Контакт ролик — cam_3 мин                                  0.0000 мм          0…0,05           OK
+  Кронштейн — cam_3 мин                                      0.000 мм³          <0,5 мм³         OK
+  Стол, cam_5 макс: пересечения                              0.000 мм³          <0,5 мм³         OK
+  Контакт ролик — cam_5 макс                                 0.0000 мм          0…0,05           OK
+  Кронштейн — cam_5 макс                                     0.000 мм³          <0,5 мм³         OK
+  Стол, cam_5 мин: пересечения                               0.000 мм³          <0,5 мм³         OK
+  Контакт ролик — cam_5 мин                                  0.0000 мм          0…0,05           OK
+  Кронштейн — cam_5 мин                                      0.000 мм³          <0,5 мм³         OK
+  Стол, cam_10 макс: пересечения                             0.000 мм³          <0,5 мм³         OK
+  Контакт ролик — cam_10 макс                                0.0000 мм          0…0,05           OK
+  Кронштейн — cam_10 макс                                    0.000 мм³          <0,5 мм³         OK
+  Стол, cam_10 мин: пересечения                              0.000 мм³          <0,5 мм³         OK
+  Контакт ролик — cam_10 мин                                 0.0000 мм          0…0,05           OK
+  Кронштейн — cam_10 мин                                     0.000 мм³          <0,5 мм³         OK
+  Стол — ход вниз                                            до 10 мм           3/5/10           OK
+  Стол — отверстия под шпильки                               4×Ø11              Ø11              OK
+  Стол — накладка                                            4×M4×12 саморез    4                OK
+  Шайбы пружин                                               8×Ø20/10,5×2       8                OK
+  Подкладки — саморезы                                       6×M4×12            6                OK
+  Стол — пружинные подкладки                                 2 полосы 200×25×5  2                OK
+  Платформа — зазор до шайб                                  5 мм               ≥5               OK
+  Дрель — патрон / задняя балка                              21 мм              ≥2               OK
+  Дрель — продольные балки                                   35 мм              ≥5               OK
+  Дрель — задние шпильки                                     4 мм               ≥2               OK
+  Подстолье — крепление                                      2 nyloc; 0 jam     2                OK
+  Основание — цековки                                        6×Ø22×20           6                OK
+  Смазка шпилек                                              обязательна        —                OK
+  Nyloc — низ станины                                        6                  6                OK
+  Nyloc — верх подстолья                                     2                  2                OK
+  Nyloc — верх платформы                                     4                  4                OK
+  Nyloc — ось ролика                                         2                  2                OK
+  Nyloc — болт подстолья                                     1                  1                OK
+  Болт подстолья                                             M10×50 + nyloc     1                OK
+  Контрагайки — шпильки                                      26                 26               OK
+  Контрагайки — вал                                          4                  4                OK
+  Вал — вылет за балку                                       20 мм              20               OK
+  Вал — стопки у балок                                       4 стопки           4                OK
+  Ограждение                                                 нет                C1               ВНИМАНИЕ
+  Привод дрель-вал                                           патрон + шпилька   C2               ВНИМАНИЕ
+  Движущаяся масса                                           685 г              —                OK
+  f_соб стола                                                ≈14.9 Гц           вне 5…15 или демпфер ВНИМАНИЕ
+)							(71.0 %)							(72.0 %)							(73.0 %)							(74.0 %)							(75.0 %)							(76.0 %)							(77.0 %)							(78.0 %)							(79.0 %)							(80.0 %)							(81.0 %)							(82.0 %)							(83.0 %)							(84.0 %)							(85.0 %)							(86.0 %)							(87.0 %)							(88.0 %)							(89.0 %)							(90.0 %)							(91.0 %)							(92.0 %)							(93.0 %)							(94.0 %)							(95.0 %)							(96.0 %)							(97.0 %)							(98.0 %)							(99.0 %)									

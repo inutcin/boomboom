@@ -101,3 +101,28 @@
 - лист с деталировкой отрезов труб.
 - спецификацию деталей, включая отреды труб
 
+
+# Результаты этапа
+
+- Отчёт: [Report.md](./Report.md)
+- Вопросы и решения: [Interview.md](./Interview.md)
+- Инструкция по сборке: [Assembly.md](./Assembly.md)
+- 3D-модель: `cad/step/vibrotable_assembly.step`; детали —
+  `cad/step/01_studs.step` … `cad/step/35_cartridge.step`
+- Печатные/переиспользуемые: `cad/stl/overlay.stl`, `cam_3/5/10.stl`;
+  новых печатных деталей нет
+- Эскизы: `fig/vibrotable_views.svg` (3 проекции),
+  `fig/mechanism.svg`, `fig/details.svg`, `fig/beams.svg`,
+  `fig/assembly_steps.svg`, `fig/spec.svg`, `fig/iso.svg`
+- Спецификация / параметры: `spec.csv` (38 поз.), `params.csv`,
+  `beam_cut.csv`, `torque.csv`, `cad/print.csv`
+- Проверки / массы: `cad/checks.csv` (75: 72 OK, 3 предупреждения),
+  `cad/mass.csv`
+- Рендеры: `pic/render_*.png`; превью листов — `pic/*.png`
+
+**Ключевые числа.** 6 шпилек M10; стол 200×200 из фанеры 10; накладка
+fix9 200×150 по центру; вырез платформы 120×120; 4 пружины
+Ø17×1,5×60 (L=36); нижние демпферы — резина; вал M10 в двух опорах
+скольжения; кулачки fix9 R45/50; габарит 400×200×300; масса без дрели —
+**6,080 кг**; 75 проверок: **72 OK, 3 предупреждения** (f_соб ≈14,9 Гц,
+C1, C2).

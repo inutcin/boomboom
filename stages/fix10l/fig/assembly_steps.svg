@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1188" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="#fff"/>
+<rect x="4" y="4" width="412" height="289" fill="none" stroke="#000" stroke-width="0.5"/>
+<rect x="6" y="6" width="408" height="285" fill="none" stroke="#000" stroke-width="0.25"/>
+<text x="10" y="13" font-family="DejaVu Sans, Arial, sans-serif" font-size="5.4" font-weight="bold" text-anchor="start" fill="#000">СБОРКА ВИБРОСТОЛА fix10l — ПОСЛЕДОВАТЕЛЬНОСТЬ</text>
+<text x="410" y="13" font-family="DejaVu Sans, Arial, sans-serif" font-size="4.0" font-weight="normal" text-anchor="end" fill="#000">A3 · 420×297</text>
+<line x1="8" y1="16.5" x2="412" y2="16.5" stroke="#000" stroke-width="0.35"/>
+<text x="10" y="22" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.2" font-weight="normal" text-anchor="start" fill="#333">Подробно — Assembly.md; моменты — torque.csv.</text>
+<rect x="12" y="30" width="124" height="82" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="16" y="37" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">1. ОСНОВАНИЕ</text>
+<text x="16" y="45" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">6 шпилек M10 в отверстия 400×200.</text>
+<text x="16" y="50" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Снизу — шайба + гайка в цековку.</text>
+<text x="16" y="55" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Сверху — шайба + гайка; проверить</text>
+<text x="16" y="60" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">параллельность шпилек.</text>
+<rect x="32" y="82" width="84" height="8" fill="#eee" stroke="#000" stroke-width="0.3"/>
+<line x1="37" y1="74" x2="37" y2="98" stroke="#000" stroke-width="0.5"/>
+<line x1="57" y1="74" x2="57" y2="98" stroke="#000" stroke-width="0.5"/>
+<line x1="87" y1="74" x2="87" y2="98" stroke="#000" stroke-width="0.5"/>
+<line x1="107" y1="74" x2="107" y2="98" stroke="#000" stroke-width="0.5"/>
+<rect x="148" y="30" width="124" height="82" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="152" y="37" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">2. БАЛКИ И ВАЛ</text>
+<text x="152" y="45" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Поперечные балки 20×20×2 на шпильки</text>
+<text x="152" y="50" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">X=30/175, Z=130…150.</text>
+<text x="152" y="55" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Вставить вал M10 в оба отверстия Ø10,2.</text>
+<text x="152" y="60" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Шайбы/гайки; кулачок на приваренную гайку.</text>
+<rect x="168" y="82" width="84" height="6" fill="#ddd" stroke="#000" stroke-width="0.3"/>
+<line x1="168" y1="96" x2="252" y2="96" stroke="#000" stroke-width="0.5"/>
+<circle cx="210" cy="96" r="8" fill="none" stroke="#000" stroke-width="0.3"/>
+<rect x="284" y="30" width="124" height="82" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="288" y="37" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">3. ПРОДОЛЬНЫЕ БАЛКИ</text>
+<text x="288" y="45" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Продольные балки Y=15/185, Z=174…194.</text>
+<text x="288" y="50" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Закрепить гайками сверху/снизу.</text>
+<text x="288" y="55" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Поставить подстолье 200×200 на балки.</text>
+<text x="288" y="60" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">2 задние nyloc; болт M10 в свободной части.</text>
+<rect x="304" y="86" width="84" height="8" fill="#eee" stroke="#000" stroke-width="0.3"/>
+<rect x="304" y="76" width="84" height="6" fill="#ddd" stroke="#000" stroke-width="0.3"/>
+<rect x="12" y="120" width="124" height="82" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="16" y="127" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">4. СТОЛ И ПРУЖИНЫ</text>
+<text x="16" y="135" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Накладку fix9 — 4 саморезами M4×12.</text>
+<text x="16" y="140" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Стол надеть на 4 шпильки.</text>
+<text x="16" y="145" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">2 полосы 200×25×5, 6 саморезов; шайбы Ø20×2, пружины.</text>
+<text x="16" y="150" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Верхняя платформа; гайки сверху.</text>
+<rect x="32" y="170" width="84" height="6" fill="#ddd" stroke="#000" stroke-width="0.3"/>
+<line x1="40" y1="178" x2="40" y2="190" stroke="#000" stroke-width="0.6"/>
+<line x1="36" y1="184" x2="44" y2="184" stroke="#000" stroke-width="0.6"/>
+<line x1="108" y1="178" x2="108" y2="190" stroke="#000" stroke-width="0.6"/>
+<line x1="104" y1="184" x2="112" y2="184" stroke="#000" stroke-width="0.6"/>
+<rect x="148" y="120" width="124" height="82" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="152" y="127" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">5. РОЛИК И ДРЕЛЬ</text>
+<text x="152" y="135" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Два уголка 50×50×2 на 4 самореза.</text>
+<text x="152" y="140" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Ось M10, 6200, шайбы/кольца, гайки.</text>
+<text x="152" y="145" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Дрель под подстолье, U-болты M6.</text>
+<text x="152" y="150" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Резиновые полукольца; патрон на вал.</text>
+<rect x="178" y="172" width="60" height="18" fill="#ddd" stroke="#000" stroke-width="0.3"/>
+<circle cx="190" cy="180" r="6" fill="none" stroke="#000" stroke-width="0.25"/>
+<rect x="284" y="120" width="124" height="82" fill="none" stroke="#000" stroke-width="0.35"/>
+<text x="288" y="127" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">6. ПРОВЕРКА</text>
+<text x="288" y="135" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Ход 3/5/10 на всех кулачках.</text>
+<text x="288" y="140" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Контакт ролика, зазор демпфера 13.</text>
+<text x="288" y="145" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Пружины 36 мм; гайки по torque.csv.</text>
+<text x="288" y="150" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.5" font-weight="normal" text-anchor="start" fill="#000">Смазать шпильки; кожух — отдельно (C1).</text>
+<text x="290" y="178" font-family="DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="normal" text-anchor="start" fill="#2a7">✓</text>
+</svg>

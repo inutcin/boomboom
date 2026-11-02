@@ -1,0 +1,32 @@
+draw fix10l...
+projected full front 499
+projected full side 1084
+projected full top 128
+projected full iso 1076
+projected open front 493
+projected open side 1081
+projected open top 151
+projected open iso 1126
+projected mech front 517
+projected mech side 1150
+projected mech top 1016
+projected mech iso 1654
+wrote vibrotable_views.svg
+wrote mechanism.svg
+wrote details.svg
+wrote beams.svg
+wrote assembly_steps.svg
+wrote iso.svg
+wrote spec.svg
+FreeCAD 0.19, Libs: 0.19R
+(c) Juergen Riegel, Werner Mayer, Yorik van Havre and others 2001-2021
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+FreeCAD wouldn't be possible without FreeCAD community.
+  #####                 ####  ###   ####  
+  #                    #      # #   #   # 
+  #     ##  #### ####  #     #   #  #   # 
+  ####  # # #  # #  #  #     #####  #   # 
+  #     #   #### ####  #    #     # #   # 
+  #     #   #    #     #    #     # #   #  ##  ##  ##
+  #     #   #### ####   ### #     # ####   ##  ##  ##
+

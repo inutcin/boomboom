@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1188" viewBox="0 0 420 297">
+<rect width="420" height="297" fill="#fff"/>
+<rect x="4" y="4" width="412" height="289" fill="none" stroke="#000" stroke-width="0.5"/>
+<rect x="6" y="6" width="408" height="285" fill="none" stroke="#000" stroke-width="0.25"/>
+<text x="10" y="13" font-family="DejaVu Sans, Arial, sans-serif" font-size="5.4" font-weight="bold" text-anchor="start" fill="#000">ДЕТАЛИ, ТРЕБУЮЩИЕ ИЗГОТОВЛЕНИЯ (fix10l)</text>
+<text x="410" y="13" font-family="DejaVu Sans, Arial, sans-serif" font-size="4.0" font-weight="normal" text-anchor="end" fill="#000">A3 · 420×297</text>
+<line x1="8" y1="16.5" x2="412" y2="16.5" stroke="#000" stroke-width="0.35"/>
+<text x="10" y="22" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.2" font-weight="normal" text-anchor="start" fill="#333">Фанера 5/10/20 мм, труба 20×20×2, полоса 2×20. М 1:4 (плиты и полосы), 1:1 (уголок).</text>
+<text x="18" y="36" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">ОСНОВАНИЕ, фанера 24</text>
+<rect x="18" y="40" width="100" height="50" fill="none" stroke="#000" stroke-width="0.3"/>
+<circle cx="25.5" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="25.5" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="61.75" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="61.75" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="114.25" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="114.25" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<line x1="18" y1="40" x2="18" y2="47.6" stroke="#000" stroke-width="0.12"/><line x1="118" y1="40" x2="118" y2="47.6" stroke="#000" stroke-width="0.12"/><line x1="18" y1="46" x2="118" y2="46" stroke="#000" stroke-width="0.16"/><polygon points="18,46 19.5,45.55 19.5,46.45" fill="#000"/><polygon points="118,46 116.5,46.45 116.5,45.55" fill="#000"/><rect x="66.15" y="43.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="68" y="45" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000">400</text>
+<line x1="118" y1="40" x2="124.6" y2="40" stroke="#000" stroke-width="0.12"/><line x1="118" y1="90" x2="124.6" y2="90" stroke="#000" stroke-width="0.12"/><line x1="123" y1="40" x2="123" y2="90" stroke="#000" stroke-width="0.16"/><polygon points="123,40 123.45,41.5 122.55,41.5" fill="#000"/><polygon points="123,90 122.55,88.5 123.45,88.5" fill="#000"/><rect x="120.15" y="63.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="122" y="65" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000" transform="rotate(-90 122 65)">200</text>
+<text x="18" y="94.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.3" font-weight="normal" text-anchor="start" fill="#333">6×Ø11 + цековки Ø22×20 снизу; 400×200×24</text>
+<text x="140" y="36" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">СТОЛ, фанера 10</text>
+<rect x="140" y="40" width="50" height="50" fill="none" stroke="#000" stroke-width="0.3"/>
+<circle cx="147.5" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="147.5" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="183.75" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="183.75" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="141.25" cy="47.5" r="0.53" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="141.25" cy="82.5" r="0.53" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="188.75" cy="47.5" r="0.53" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="188.75" cy="82.5" r="0.53" fill="none" stroke="#000" stroke-width="0.22"/>
+<line x1="140" y1="40" x2="140" y2="46.6" stroke="#000" stroke-width="0.12"/><line x1="190" y1="40" x2="190" y2="46.6" stroke="#000" stroke-width="0.12"/><line x1="140" y1="45" x2="190" y2="45" stroke="#000" stroke-width="0.16"/><polygon points="140,45 141.5,44.55 141.5,45.45" fill="#000"/><polygon points="190,45 188.5,45.45 188.5,44.55" fill="#000"/><rect x="163.15" y="42.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="165" y="44" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000">200</text>
+<line x1="190" y1="40" x2="195.6" y2="40" stroke="#000" stroke-width="0.12"/><line x1="190" y1="90" x2="195.6" y2="90" stroke="#000" stroke-width="0.12"/><line x1="194" y1="40" x2="194" y2="90" stroke="#000" stroke-width="0.16"/><polygon points="194,40 194.45,41.5 193.55,41.5" fill="#000"/><polygon points="194,90 193.55,88.5 194.45,88.5" fill="#000"/><rect x="191.15" y="63.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="193" y="65" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000" transform="rotate(-90 193 65)">200</text>
+<text x="140" y="94.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.3" font-weight="normal" text-anchor="start" fill="#333">4×Ø11 под шпильки; 4×Ø4,2×6 под накладку</text>
+<text x="210" y="36" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">ПЛАТФОРМА, фанера 10</text>
+<rect x="210" y="40" width="50" height="50" fill="none" stroke="#000" stroke-width="0.3"/>
+<circle cx="217.5" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="217.5" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="253.75" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="253.75" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<rect x="220" y="50" width="30" height="30" fill="none" stroke="#000" stroke-width="0.22"/>
+<line x1="210" y1="40" x2="210" y2="46.6" stroke="#000" stroke-width="0.12"/><line x1="260" y1="40" x2="260" y2="46.6" stroke="#000" stroke-width="0.12"/><line x1="210" y1="45" x2="260" y2="45" stroke="#000" stroke-width="0.16"/><polygon points="210,45 211.5,44.55 211.5,45.45" fill="#000"/><polygon points="260,45 258.5,45.45 258.5,44.55" fill="#000"/><rect x="233.15" y="42.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="235" y="44" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000">200</text>
+<line x1="260" y1="40" x2="265.6" y2="40" stroke="#000" stroke-width="0.12"/><line x1="260" y1="90" x2="265.6" y2="90" stroke="#000" stroke-width="0.12"/><line x1="264" y1="40" x2="264" y2="90" stroke="#000" stroke-width="0.16"/><polygon points="264,40 264.45,41.5 263.55,41.5" fill="#000"/><polygon points="264,90 263.55,88.5 264.45,88.5" fill="#000"/><rect x="261.15" y="63.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="263" y="65" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000" transform="rotate(-90 263 65)">200</text>
+<text x="210" y="94.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.3" font-weight="normal" text-anchor="start" fill="#333">вырез 120×120; 4×Ø11</text>
+<text x="280" y="36" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">ПОДСТОЛЬЕ, фанера 10</text>
+<rect x="280" y="40" width="50" height="50" fill="none" stroke="#000" stroke-width="0.3"/>
+<circle cx="326.25" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="326.25" cy="86.25" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="290" cy="47.5" r="0.88" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="290" cy="82.5" r="0.88" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="305" cy="47.5" r="0.88" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="305" cy="82.5" r="0.88" fill="none" stroke="#000" stroke-width="0.22"/>
+<circle cx="292.5" cy="43.75" r="1.38" fill="none" stroke="#000" stroke-width="0.22"/>
+<line x1="280" y1="40" x2="280" y2="46.6" stroke="#000" stroke-width="0.12"/><line x1="330" y1="40" x2="330" y2="46.6" stroke="#000" stroke-width="0.12"/><line x1="280" y1="45" x2="330" y2="45" stroke="#000" stroke-width="0.16"/><polygon points="280,45 281.5,44.55 281.5,45.45" fill="#000"/><polygon points="330,45 328.5,45.45 328.5,44.55" fill="#000"/><rect x="303.15" y="42.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="305" y="44" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000">200</text>
+<line x1="330" y1="40" x2="335.6" y2="40" stroke="#000" stroke-width="0.12"/><line x1="330" y1="90" x2="335.6" y2="90" stroke="#000" stroke-width="0.12"/><line x1="334" y1="40" x2="334" y2="90" stroke="#000" stroke-width="0.16"/><polygon points="334,40 334.45,41.5 333.55,41.5" fill="#000"/><polygon points="334,90 333.55,88.5 334.45,88.5" fill="#000"/><rect x="331.15" y="63.02" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="333" y="65" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000" transform="rotate(-90 333 65)">200</text>
+<text x="280" y="94.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.3" font-weight="normal" text-anchor="start" fill="#333">2×Ø11 + 1×Ø11 болт; 4×Ø7; 200×200×10</text>
+<text x="18" y="131" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">УГОЛОК 50×50×2</text>
+<line x1="18" y1="135" x2="18" y2="185" stroke="#000" stroke-width="0.35"/>
+<line x1="18" y1="185" x2="68" y2="185" stroke="#000" stroke-width="0.35"/>
+<line x1="20" y1="135" x2="20" y2="183" stroke="#000" stroke-width="0.35"/>
+<line x1="20" y1="183" x2="68" y2="183" stroke="#000" stroke-width="0.35"/>
+<circle cx="19" cy="155" r="5.25" fill="none" stroke="#000" stroke-width="0.25"/>
+<circle cx="31" cy="177" r="2.1" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle cx="31" cy="183" r="2.1" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle cx="56" cy="177" r="2.1" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle cx="56" cy="183" r="2.1" fill="none" stroke="#000" stroke-width="0.2"/>
+<line x1="18" y1="185" x2="18" y2="192.6" stroke="#000" stroke-width="0.12"/><line x1="68" y1="185" x2="68" y2="192.6" stroke="#000" stroke-width="0.12"/><line x1="18" y1="191" x2="68" y2="191" stroke="#000" stroke-width="0.16"/><polygon points="18,191 19.5,190.55 19.5,191.45" fill="#000"/><polygon points="68,191 66.5,191.45 66.5,190.55" fill="#000"/><rect x="41.77" y="188.02" width="2.46" height="2.53" fill="#fff" stroke="none"/><text x="43" y="190" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000">50</text>
+<line x1="68" y1="135" x2="74.6" y2="135" stroke="#000" stroke-width="0.12"/><line x1="68" y1="185" x2="74.6" y2="185" stroke="#000" stroke-width="0.12"/><line x1="73" y1="135" x2="73" y2="185" stroke="#000" stroke-width="0.16"/><polygon points="73,135 73.45,136.5 72.55,136.5" fill="#000"/><polygon points="73,185 72.55,183.5 73.45,183.5" fill="#000"/><rect x="70.77" y="158.02" width="2.46" height="2.53" fill="#fff" stroke="none"/><text x="72" y="160" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000" transform="rotate(-90 72 160)">50</text>
+<text x="18" y="197" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.3" font-weight="normal" text-anchor="start" fill="#333">ширина 20; 2 шт.; отверстие оси Ø10,5 на 20 мм ниже полки; 4×Ø4,2 под саморез M4×12</text>
+<text x="105" y="146" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.4" font-weight="bold" text-anchor="start" fill="#000">ПОДКЛАДКА 2 шт., 1:4</text>
+<rect x="105" y="150" width="50" height="6.25" fill="none" stroke="#000" stroke-width="0.3"/>
+<circle cx="112.5" cy="153.12" r="1.5" fill="none" stroke="#000" stroke-width="0.25"/>
+<circle cx="148.75" cy="153.12" r="1.5" fill="none" stroke="#000" stroke-width="0.25"/>
+<circle cx="120" cy="153.12" r="0.53" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle cx="130" cy="153.12" r="0.53" fill="none" stroke="#000" stroke-width="0.2"/>
+<circle cx="140" cy="153.12" r="0.53" fill="none" stroke="#000" stroke-width="0.2"/>
+<line x1="105" y1="156.25" x2="105" y2="163.85" stroke="#000" stroke-width="0.12"/><line x1="155" y1="156.25" x2="155" y2="163.85" stroke="#000" stroke-width="0.12"/><line x1="105" y1="162.25" x2="155" y2="162.25" stroke="#000" stroke-width="0.16"/><polygon points="105,162.25 106.5,161.8 106.5,162.7" fill="#000"/><polygon points="155,162.25 153.5,162.7 153.5,161.8" fill="#000"/><rect x="128.15" y="159.27" width="3.7" height="2.53" fill="#fff" stroke="none"/><text x="130" y="161.25" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000">200</text>
+<line x1="155" y1="150" x2="161.6" y2="150" stroke="#000" stroke-width="0.12"/><line x1="155" y1="156.25" x2="161.6" y2="156.25" stroke="#000" stroke-width="0.12"/><line x1="160" y1="150" x2="160" y2="156.25" stroke="#000" stroke-width="0.16"/><polygon points="160,150 160.45,151.5 159.55,151.5" fill="#000"/><polygon points="160,156.25 159.55,154.75 160.45,154.75" fill="#000"/><rect x="157.77" y="151.15" width="2.46" height="2.53" fill="#fff" stroke="none"/><text x="159" y="153.12" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="middle" fill="#000" transform="rotate(-90 159 153.12)">25</text>
+<text x="105" y="166" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.3" font-weight="normal" text-anchor="start" fill="#333">фанера 5; 2×Ø12; 3×Ø4,2; 2 шт.</text>
+<text x="165" y="130" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.3" font-weight="bold" text-anchor="start" fill="#000">ОТВЕРСТИЯ И ПОСАДКИ</text>
+<text x="165" y="137" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Стол</text>
+<text x="205" y="137" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">4×Ø11</text>
+<text x="245" y="137" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=30/175; Y=15/185</text>
+<text x="165" y="141.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Стол</text>
+<text x="205" y="141.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">4×Ø4,2×6</text>
+<text x="245" y="141.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=5/195; Y=30/170; глухие</text>
+<text x="165" y="146.6" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Платформа</text>
+<text x="205" y="146.6" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">4×Ø11</text>
+<text x="245" y="146.6" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=30/175; Y=15/185</text>
+<text x="165" y="151.4" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Платформа</text>
+<text x="205" y="151.4" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">вырез 120×120</text>
+<text x="245" y="151.4" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=40…160; Y=40…160</text>
+<text x="165" y="156.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Основание</text>
+<text x="205" y="156.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">6×Ø11</text>
+<text x="245" y="156.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=30/175/385; Y=15/185</text>
+<text x="165" y="161" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Основание</text>
+<text x="205" y="161" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">6×Ø22×20</text>
+<text x="245" y="161" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">цековки снизу</text>
+<text x="165" y="165.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Подстолье</text>
+<text x="205" y="165.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">2×Ø11</text>
+<text x="245" y="165.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=385; Y=15/185</text>
+<text x="165" y="170.6" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Подстолье</text>
+<text x="205" y="170.6" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">4×Ø7</text>
+<text x="245" y="170.6" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=240/300; Y=30/170</text>
+<text x="165" y="175.4" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Подстолье</text>
+<text x="205" y="175.4" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">1×Ø11</text>
+<text x="245" y="175.4" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=250; Y=15; болт M10</text>
+<text x="165" y="180.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Подкладки</text>
+<text x="205" y="180.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">2×Ø12</text>
+<text x="245" y="180.2" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=30/175; Y=15/185</text>
+<text x="165" y="185" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Подкладки</text>
+<text x="205" y="185" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">3×Ø4,2</text>
+<text x="245" y="185" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">X=60/100/140; Y=12,5/187,5</text>
+<text x="165" y="189.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Балки</text>
+<text x="205" y="189.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">Ø10,2</text>
+<text x="245" y="189.8" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.2" font-weight="normal" text-anchor="start" fill="#000">вал: X=30/175; Y=100; Z=140</text>
+<text x="165" y="193" font-family="DejaVu Sans, Arial, sans-serif" font-size="3.3" font-weight="bold" text-anchor="start" fill="#000">ПЕРЕИСПОЛЬЗОВАНИЕ</text>
+<text x="165" y="200" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.4" font-weight="normal" text-anchor="start" fill="#000">Накладка fix9 200×150×6 — без изменений.</text>
+<text x="165" y="205" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.4" font-weight="normal" text-anchor="start" fill="#000">Кулачки fix9 cam_3/5/10 — без изменений.</text>
+<text x="165" y="210" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.4" font-weight="normal" text-anchor="start" fill="#000">Новых печатных деталей нет.</text>
+<text x="165" y="218" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.4" font-weight="normal" text-anchor="start" fill="#333">Трубы и шпильки — см. beam_cut.csv / лист труб.</text>
+<text x="165" y="228" font-family="DejaVu Sans, Arial, sans-serif" font-size="2.4" font-weight="normal" text-anchor="start" fill="#333">Все острые кромки фанеры и труб притупить.</text>
+</svg>
