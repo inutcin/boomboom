@@ -80,6 +80,11 @@
   (отрезки труб + сварка), `fig/details.svg`, `fig/clamp.svg` (узел
   поджима), `fig/cam.svg`, `fig/vibrotable_shield.svg`,
   `fig/assembly_steps.svg`
+- Пробные детальные чертежи по STEP: [`tachdraw/`](./tachdraw/README.md) —
+  **27 листов** A4 портрет, М 1:2, PDF: стол/подстолье/накладка, уголки,
+  балка 21, кулачок (3 варианта) и 18 отрезков труб; STEP отрезков
+  дополнены всеми отверстиями/прорезями; `tachdraw/pdf/*.pdf`;
+  отчёт — [tachdraw/Report.md](./tachdraw/Report.md)
 - Спецификация / параметры: `spec.csv` (44 поз.), `shopping.csv`,
   `params.csv`, `tube_cut.csv`, `torque.csv`
 - Проверки / массы: `cad/checks.csv` (201: 195 OK, 6 предупреждений),
