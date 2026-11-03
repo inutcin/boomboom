@@ -114,6 +114,11 @@
 - Эскизы: `fig/vibrotable_views.svg` (3 проекции),
   `fig/mechanism.svg`, `fig/details.svg`, `fig/beams.svg`,
   `fig/assembly_steps.svg`, `fig/spec.svg`, `fig/iso.svg`
+- Пробные детальные чертежи по STEP: [`tachdraw/`](./tachdraw/README.md) —
+  12 листов A4 портрет, М 1:2, PDF: стол/подстолье/накладка, 4 отреза
+  труб B01…B04, 2 уголка кронштейна, кулачок 3/5/10; размеры на чертеже
+  без координатных таблиц; `tachdraw/pdf/*.pdf`;
+  отчёт — [tachdraw/Report.md](./tachdraw/Report.md)
 - Спецификация / параметры: `spec.csv` (38 поз.), `params.csv`,
   `beam_cut.csv`, `torque.csv`, `cad/print.csv`
 - Проверки / массы: `cad/checks.csv` (75: 72 OK, 3 предупреждения),
