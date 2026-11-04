@@ -85,6 +85,10 @@
   балка 21, кулачок (3 варианта) и 18 отрезков труб; STEP отрезков
   дополнены всеми отверстиями/прорезями; `tachdraw/pdf/*.pdf`;
   отчёт — [tachdraw/Report.md](./tachdraw/Report.md)
+- Раскрой 4 труб 1000 мм: [`techdraw/`](./techdraw/README.md) —
+  A4 альбом, М 1:5, PDF/SVG/PNG; рама без задних стоек + балка 21,
+  18 заготовок, рез ≤5 мм, остаток 150,8 мм;
+  отчёт — [techdraw/Report.md](./techdraw/Report.md)
 - Спецификация / параметры: `spec.csv` (44 поз.), `shopping.csv`,
   `params.csv`, `tube_cut.csv`, `torque.csv`
 - Проверки / массы: `cad/checks.csv` (201: 195 OK, 6 предупреждений),

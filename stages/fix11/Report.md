@@ -21,6 +21,7 @@ Python 3.10, cairosvg.
 | Печатные детали | `cad/stl/table.stl`, `overlay.stl`, `podstol.stl`, `cam_3/5/10.stl`; `cad/print.csv` |
 | Спецификация | [`spec.csv`](./spec.csv) (44 поз.), [`shopping.csv`](./shopping.csv) (44 строки), [`params.csv`](./params.csv) |
 | Деталировка труб и сварка | [`fig/frame_tubes.svg`](./fig/frame_tubes.svg), [`tube_cut.csv`](./tube_cut.csv) |
+| Раскрой 4 труб ×1000 мм | [`techdraw/`](./techdraw/README.md): A4 альбом, М 1:5, PDF/SVG/PNG, `cut_plan.csv`; рама без T05/T06 + балка 21, 18 заготовок, остаток 150,8 мм |
 | Эскизы деталей | [`fig/details.svg`](./fig/details.svg), [`fig/clamp.svg`](./fig/clamp.svg), [`fig/cam.svg`](./fig/cam.svg), [`fig/vibrotable_shield.svg`](./fig/vibrotable_shield.svg) |
 | Проекции / изометрия | [`fig/vibrotable_views.svg`](./fig/vibrotable_views.svg), [`fig/iso.svg`](./fig/iso.svg), [`fig/iso_open.svg`](./fig/iso_open.svg) |
 | Инструкция по сборке | [`Assembly.md`](./Assembly.md), [`fig/assembly_steps.svg`](./fig/assembly_steps.svg), [`torque.csv`](./torque.csv) |
