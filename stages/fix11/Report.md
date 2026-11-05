@@ -22,6 +22,7 @@ Python 3.10, cairosvg.
 | Спецификация | [`spec.csv`](./spec.csv) (44 поз.), [`shopping.csv`](./shopping.csv) (44 строки), [`params.csv`](./params.csv) |
 | Деталировка труб и сварка | [`fig/frame_tubes.svg`](./fig/frame_tubes.svg), [`tube_cut.csv`](./tube_cut.csv) |
 | Раскрой 4 труб ×1000 мм | [`techdraw/`](./techdraw/README.md): A4 альбом, М 1:5, PDF/SVG/PNG, `cut_plan.csv`; 18 отрезков рамы, остаток 170 мм; балки 21 — из отдельной трубы |
+| Раскрой направляющих валов | [`techdraw/shaft_cut_layout.py`](./techdraw/shaft_cut_layout.py): A4 альбом, М 1:2,5, PDF/SVG/PNG/CSV; 2 прутка Ø10×500 → 4 вала по 176 мм (166 + 10 запас), рез 5 мм, остаток 276 мм |
 | Эскизы деталей | [`fig/details.svg`](./fig/details.svg), [`fig/clamp.svg`](./fig/clamp.svg), [`fig/cam.svg`](./fig/cam.svg), [`fig/vibrotable_shield.svg`](./fig/vibrotable_shield.svg) |
 | Проекции / изометрия | [`fig/vibrotable_views.svg`](./fig/vibrotable_views.svg), [`fig/iso.svg`](./fig/iso.svg), [`fig/iso_open.svg`](./fig/iso_open.svg) |
 | Инструкция по сборке | [`Assembly.md`](./Assembly.md), [`fig/assembly_steps.svg`](./fig/assembly_steps.svg), [`torque.csv`](./torque.csv) |
@@ -220,3 +221,5 @@ OpenCode, сессия `ses_e601a7ab3ffeW92x1UC57lqzAx`; снимок на 2026-
 | **Исходящие всего (output + reasoning)** | **235 487** | **0,14129** |
 
 Стоимость fix9 и expert3 — в их отчётах; здесь учтён только этап fix11.
+Стоимость дополнения «раскрой направляющих валов» — в
+[`techdraw/Report.md`](./techdraw/Report.md), раздел 10.
