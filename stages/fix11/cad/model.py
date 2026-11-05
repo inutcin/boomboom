@@ -7,7 +7,9 @@
   * накладки-уголки 50x50, ширина 25, 2 мм; к балке M4x35, к стойкам
     не крепятся — только упираются (направляющая);
   * шпильки поджима — строительные 4.6; вал привода и ось ролика — 8.8;
-  * шпилек вала привода с приваренной гайкой — 3 комплекта.
+  * шпилек вала привода с приваренной гайкой — 3 комплекта;
+  * направляющие валы — Ø10 h6, L=176, резьба M10×15 на концах;
+    крепление гайками M10 с шайбами Ø18, кольца WCS10FR удалены.
 """
 
 import math
@@ -342,17 +344,20 @@ def bearing_6200(x0, x1, y, z):
 
 
 # ----------------------------------------------------------------------------
-# валы, ограничители, пружины, шайбы
+# валы, гайки/шайбы валов, пружины, шайбы
 # ----------------------------------------------------------------------------
 def shaft(x, y):
     return cyl_z(P["shaft_d"] / 2.0, P["shaft_z0"], P["shaft_z1"], x, y)
 
 
-def collar(x, y, z0):
-    s = cyl_z(P["collar_d"] / 2.0, z0, z0 + P["collar_t"], x, y)
-    s = s.cut(cyl_z(P["shaft_d"] / 2.0 + 0.05, z0 - 1,
-                    z0 + P["collar_t"] + 1, x, y))
-    return s
+def shaft_nut(x, y, z0):
+    return hex_nut_z(x, y, z0, af=P["shaft_nut_af"], h=P["shaft_nut_h"],
+                     d=P["shaft_nut_id"])
+
+
+def shaft_washer(x, y, z0):
+    return washer_z(x, y, z0, od=P["shaft_washer_od"],
+                    d=P["shaft_washer_id"], t=P["shaft_washer_t"])
 
 
 def spring(x, y):
@@ -847,17 +852,25 @@ def build_assembly(drill=False, draw=False):
     add("overlay", overlay(), "pla", 1, "overlay", "4")
     add("podstol", podstol(), "petg", 1, "table", "11")
 
-    sh, co, spr, wa = [], [], [], []
+    sh, sn, sw, spr, wa = [], [], [], [], []
     for x in (P["guide_x1"], P["guide_x2"]):
         for y in (P["guide_y1"], P["guide_y2"]):
             sh.append(shaft(x, y))
-            co.append(collar(x, y, P["shaft_z0"]))
-            co.append(collar(x, y, P["shaft_z1"] - P["collar_t"]))
+            # нижний узел: гайка + шайба под средней поперечиной;
+            # верхний: шайба + гайка над верхней поперечиной
+            sw.append(shaft_washer(
+                x, y, P["mid_z0"] - P["shaft_washer_t"]))
+            sn.append(shaft_nut(
+                x, y, P["mid_z0"] - P["shaft_washer_t"] - P["shaft_nut_h"]))
+            sw.append(shaft_washer(x, y, P["top_z1"]))
+            sn.append(shaft_nut(
+                x, y, P["top_z1"] + P["shaft_washer_t"]))
             spr.append(spring(x, y))
             wa.append(washer_z(x, y, P["overlay_z1"]))
             wa.append(washer_z(x, y, P["top_z0"] - P["spring_washer_t"]))
     add("shaft", concat(sh), "steel", 4, "steel", "2")
-    add("collar", concat(co), "steel", 8, "steel", "1")
+    add("shaft_nuts", concat(sn), "steel", 8, "steel", "45")
+    add("shaft_washers", concat(sw), "steel", 8, "steel", "46")
     add("spring", concat(spr), "steel", 4, "steel", "3")
     add("spring_washer", concat(wa), "steel", 8, "steel", "25")
 

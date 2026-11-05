@@ -4,8 +4,9 @@ frame_plugs;22.7;plastic;15.04;10;15.0
 table;5;pla;289.78;1;359.3
 overlay;4;pla;161.41;1;200.2
 podstol;11;petg;380.29;1;483.0
-shaft;2;steel;52.15;4;409.4
-collar;1;steel;40.11;8;314.9
+shaft;2;steel;55.29;4;434.0
+shaft_nuts;45;steel;10.48;8;82.2
+shaft_washers;46;steel;2.01;8;15.8
 spring;3;steel;3.13;4;24.6
 spring_washer;25;steel;2.01;8;15.8
 lmk;8;bearing;56.88;4;446.5
@@ -42,4 +43,4 @@ shield;29;pc;586.25;1;703.5
 shield_screws;30;steel;5.63;22;44.2
 rubber_pads;31;rubber;54.72;4;62.9
 rubber_rings;32;rubber;4.7;4;5.4
-ИТОГО;;;;;9315.3
+ИТОГО;;;;;9123.1

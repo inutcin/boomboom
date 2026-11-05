@@ -154,7 +154,7 @@ target_cam = bpy.context.object
 bpy.ops.object.empty_add(location=(0.087, 0.10, 0.140))
 target_washer = bpy.context.object
 bpy.ops.object.empty_add(location=(0.010, 0.050, 0.176))
-target_ring = bpy.context.object
+target_rubber_ring = bpy.context.object
 bpy.ops.object.empty_add(location=(0.020, 0.032, 0.255))
 target_pad = bpy.context.object
 bpy.ops.object.empty_add(location=(0.010, 0.070, 0.080))
@@ -229,8 +229,8 @@ VIEWS = [
                           tgt=target_cam), "cam"),
     ("render_washer", camera("washer", (0.21, -0.18, 0.15), 90,
                              tgt=target_washer), "cam"),
-    ("render_ring", camera("ring", (-0.12, -0.20, 0.20), 85,
-                           tgt=target_ring), "ring"),
+    ("render_rubber_ring", camera("rubber_ring", (-0.12, -0.20, 0.20),
+                                  85, tgt=target_rubber_ring), "ring"),
     ("render_pad", camera("pad", (-0.12, -0.26, 0.34), 80,
                           tgt=target_pad), "pad"),
     ("render_retainer_down", camera("down", (-0.20, -0.30, 0.28), 80,

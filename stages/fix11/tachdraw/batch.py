@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Пакет чертежей деталей fix11 по STEP: A4 портрет, М 1:2, PDF.
 
-Один PDF на деталь. Для каждой детали:
+Один PDF на деталь. Отдельно — вал 02_shaft (L=176, M10×15).
+Для каждой детали:
   * две проекции (выбираются по видимым отверстиям/вырезам и габариту);
   * габаритные размеры;
   * таблица отверстий: Ø и расстояния от левого/нижнего краёв до центра;
@@ -696,6 +697,112 @@ def draw_generic(ent):
 
 
 # ----------------------------------------------------------------------------
+# вал направляющий: отдельный лист с резьбой
+# ----------------------------------------------------------------------------
+def draw_shaft(out):
+    """A4 portrait: вал Ø10 h6, L=176, резьба M10×15 на концах."""
+    L, D = 176.0, 10.0
+    THR = 15.0
+    minor = 8.376          # M10, внутренний Ø резьбы
+    x0, yc = 55.0, 76.0    # главный вид, 1:2
+    x1 = x0 + L * S
+    yt, yb = yc - D * S / 2.0, yc + D * S / 2.0
+    tl = THR * S
+
+    o = ['<?xml version="1.0" encoding="UTF-8"?>',
+         '<svg xmlns="http://www.w3.org/2000/svg" width="210mm" '
+         'height="297mm" viewBox="0 0 210 297">',
+         '<rect width="210" height="297" fill="#fff"/>']
+    o.append(frame_generic("Вал направляющий", "2", 4,
+                           "сталь Ø10 h6, шлифованная",
+                           0.109, code="fix11.TD.2"))
+
+    o.append(td.text(24, 32, "ГЛАВНЫЙ ВИД · М 1:2", 3.2, weight="bold"))
+    o.append(td.text(24, 37, "резьба M10×15 — на обоих концах", 2.5))
+
+    # контур вала
+    o.append(td.rect(x0, yt, L * S, D * S, 0.45, fill="#f4f4f4"))
+    o.append(td.centerline(x0 - 4, yc, x1 + 4, yc))
+    # резьба: тонкие линии впадин и границы участков
+    for a, b in ((x0, x0 + tl), (x1 - tl, x1)):
+        for dy in (-minor / 2.0 * S, minor / 2.0 * S):
+            o.append(td.line(a, yc + dy, b, yc + dy, 0.18))
+        o.append(td.line(b, yc + minor / 2.0 * S,
+                         b, yc - minor / 2.0 * S, 0.18))
+    o.append(td.line(x0, yt, x0, yb, 0.45))
+    o.append(td.line(x1, yt, x1, yb, 0.45))
+
+    # размеры главного вида
+    o.append(td.hdim(x0, x1, yt, yt - 10.0, "176", size=3.0))
+    o.append(td.hdim(x0, x0 + tl, yb, yb + 10.0, "15", size=2.4,
+                     tight=True))
+    o.append(td.hdim(x0 + tl, x1 - tl, yb, yb + 10.0, "146", size=2.4))
+    o.append(td.hdim(x1 - tl, x1, yb, yb + 10.0, "15", size=2.4,
+                     tight=True))
+    o.append(td.leader(x1, yc, x1 + 12, yc - 17,
+                       "Ø10 h6", size=2.9, anchor="start"))
+    o.append(td.leader(x0, yc, 24, 52,
+                       "2× M10×15", size=2.9, anchor="start"))
+
+    # --- деталь А: резьбовой конец 2:1 ------------------------------------
+    bx, by, bw, bh = 28.0, 108.0, 155.0, 70.0
+    o.append(td.rect(bx, by, bw, bh, 0.35))
+    o.append(td.text(bx + 2, by + 3.0,
+                     "ДЕТАЛЬ А — РЕЗЬБА M10×15 (2:1)", 2.6,
+                     weight="bold"))
+
+    ax, ayc = 40.0, 145.0
+    athr = THR * 1.0                 # 2:1 -> 30 мм
+    ar = D * 1.0                     # 2:1 -> Ø20
+    aminor = minor * 1.0
+    at, ab = ayc - ar / 2.0, ayc + ar / 2.0
+    o.append(td.rect(ax, at, athr, ar, 0.45, fill="#f4f4f4"))
+    o.append(td.centerline(ax - 3, ayc, ax + athr + 3, ayc))
+    for dy in (-aminor / 2.0, aminor / 2.0):
+        o.append(td.line(ax, ayc + dy, ax + athr, ayc + dy, 0.18))
+    o.append(td.line(ax + athr, at, ax + athr, ab, 0.45))
+    o.append(td.line(ax, at, ax, ab, 0.45))
+    o.append(td.hdim(ax, ax + athr, ab, ab + 7.0, "15", size=2.4,
+                     tight=True))
+    o.append(td.leader(ax + 8.0, at, ax + 8.0, at - 8.0,
+                       "M10", size=2.8, anchor="middle"))
+    o.append(td.text(ax, ab + 12.0, "резьба правая", 2.0))
+
+    # вид с торца 2:1
+    ecx, ecy, er = 160.0, 140.0, D * 1.0 / 2.0
+    o.append(td.circle(ecx, ecy, er, 0.45, fill="#f4f4f4"))
+    o.append(td.centerline(ecx - er - 3, ecy, ecx + er + 3, ecy))
+    o.append(td.centerline(ecx, ecy - er - 3, ecx, ecy + er + 3))
+    o.append(td.text(ecx, ecy + er + 6, "Ø10 h6", 2.5, "middle"))
+    o.append(td.text(ecx, ecy + er + 9.5, "2:1", 2.0, "middle"))
+
+    # --- примечания -------------------------------------------------------
+    notes = [
+        "ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ",
+        "1. Материал — сталь Ø10 h6, шлифованная; 4 шт.",
+        "2. Длина 176 = 166 + 5 мм с каждого торца.",
+        "3. Резьба M10×15 на обоих концах; правая.",
+        "4. Фаска 0,5×45°; заусенцы снять; поверхность h6 не повреждать.",
+        "5. Крепление: гайка M10 (17 AF) + шайба Ø18/Ø10,5×1,5",
+        "   снаружи средней и верхней поперечин; затяжка 8 Н·м.",
+        "6. Неуказанные отклонения ±0,5 мм; биение по h6 ≤0,05 мм.",
+    ]
+    yy = 188.0
+    for i, s in enumerate(notes):
+        o.append(td.text(24 if not s.startswith("  ") else 28, yy, s.strip(),
+                         2.2 if i else 2.6,
+                         weight="bold" if i == 0 else "normal"))
+        yy += 4.2
+
+    o.append(td.text(24, 231,
+                     "Исходник: cad/step/02_shaft.step · резьба и гайки — "
+                     "по spec.csv", 2.1, color="#444"))
+    o.append("</svg>")
+    cairosvg.svg2pdf(bytestring="".join(o).encode("utf-8"), write_to=out)
+    print("written", out)
+
+
+# ----------------------------------------------------------------------------
 # список деталей
 # ----------------------------------------------------------------------------
 TUBES = [
@@ -793,6 +900,8 @@ def build_entries():
 
 def main():
     only = os.environ.get("TACHDRAW_ONLY")
+    if only is None or only in ("02", "02_shaft"):
+        draw_shaft(os.path.join(OUT, "02_shaft.pdf"))
     if only is None or only in ("21", "21_beam"):
         td.sheet_beam21(os.path.join(STEP, "21_retainer_one.step"),
                         os.path.join(OUT, "21_beam.pdf"))
